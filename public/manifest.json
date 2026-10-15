@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ContractLens",
+  "short_name": "ContractLens",
+  "version": "1.0.0",
+  "description": "Kullanım koşulları ve gizlilik politikalarındaki riskli maddeleri kanıta dayalı olarak açıklar. Hukuki tavsiye değildir.",
+  "default_locale": "tr",
+  "minimum_chrome_version": "116",
+  "action": {
+    "default_title": "ContractLens",
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "permissions": ["activeTab", "scripting", "storage", "sidePanel"],
+  "host_permissions": ["http://localhost:8787/*", "http://127.0.0.1:8787/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://localhost:8787 http://127.0.0.1:8787"
+  }
+}

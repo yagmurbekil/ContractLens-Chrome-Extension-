@@ -1,0 +1,552 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "number",
+      "const": 1
+    },
+    "url": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "llm",
+        "demo"
+      ]
+    },
+    "provider": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "documentType": {
+      "type": "string",
+      "enum": [
+        "terms_of_service",
+        "privacy_policy",
+        "subscription_terms",
+        "cookie_policy",
+        "refund_policy",
+        "data_processing",
+        "eula",
+        "other_legal",
+        "not_legal",
+        "unknown"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "insufficient_data",
+        "uncertain",
+        "failed"
+      ]
+    },
+    "overallRiskScore": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "riskLevel": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "low",
+            "moderate",
+            "high",
+            "critical"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "scoreExplanationTr": {
+      "type": "string"
+    },
+    "summaryTr": {
+      "type": "string"
+    },
+    "verifiedFindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "chunkId": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "data_collection",
+              "data_sharing",
+              "data_retention",
+              "tracking_cookies",
+              "ai_training",
+              "auto_renewal",
+              "cancellation",
+              "refunds",
+              "price_changes",
+              "unilateral_changes",
+              "termination_suspension",
+              "liability_limitation",
+              "indemnification",
+              "arbitration_class_waiver",
+              "jurisdiction",
+              "content_license",
+              "warranty_disclaimer",
+              "other"
+            ]
+          },
+          "concernType": {
+            "type": "string",
+            "enum": [
+              "privacy",
+              "financial",
+              "contractual",
+              "unfavorable_term",
+              "uncertainty"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "moderate",
+              "high",
+              "critical"
+            ]
+          },
+          "titleTr": {
+            "type": "string"
+          },
+          "originalQuote": {
+            "type": "string"
+          },
+          "explanationTr": {
+            "type": "string"
+          },
+          "potentialImpactTr": {
+            "type": "string"
+          },
+          "sourceSection": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "uncertaintyTr": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "verified",
+                  "unverified_not_found",
+                  "unverified_ambiguous",
+                  "unverified_altered"
+                ]
+              },
+              "docStart": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "docEnd": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "offsetCheck": {
+                "type": "string",
+                "enum": [
+                  "match",
+                  "corrected",
+                  "not_provided",
+                  "not_applicable"
+                ]
+              },
+              "detailTr": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "status",
+              "docStart",
+              "docEnd",
+              "offsetCheck",
+              "detailTr"
+            ],
+            "additionalProperties": false
+          },
+          "scoreContribution": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "chunkId",
+          "category",
+          "concernType",
+          "severity",
+          "titleTr",
+          "originalQuote",
+          "explanationTr",
+          "potentialImpactTr",
+          "sourceSection",
+          "confidence",
+          "uncertaintyTr",
+          "evidence",
+          "scoreContribution"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unverifiedFindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "chunkId": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "data_collection",
+              "data_sharing",
+              "data_retention",
+              "tracking_cookies",
+              "ai_training",
+              "auto_renewal",
+              "cancellation",
+              "refunds",
+              "price_changes",
+              "unilateral_changes",
+              "termination_suspension",
+              "liability_limitation",
+              "indemnification",
+              "arbitration_class_waiver",
+              "jurisdiction",
+              "content_license",
+              "warranty_disclaimer",
+              "other"
+            ]
+          },
+          "concernType": {
+            "type": "string",
+            "enum": [
+              "privacy",
+              "financial",
+              "contractual",
+              "unfavorable_term",
+              "uncertainty"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "moderate",
+              "high",
+              "critical"
+            ]
+          },
+          "titleTr": {
+            "type": "string"
+          },
+          "originalQuote": {
+            "type": "string"
+          },
+          "explanationTr": {
+            "type": "string"
+          },
+          "potentialImpactTr": {
+            "type": "string"
+          },
+          "sourceSection": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "uncertaintyTr": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "verified",
+                  "unverified_not_found",
+                  "unverified_ambiguous",
+                  "unverified_altered"
+                ]
+              },
+              "docStart": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "docEnd": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "offsetCheck": {
+                "type": "string",
+                "enum": [
+                  "match",
+                  "corrected",
+                  "not_provided",
+                  "not_applicable"
+                ]
+              },
+              "detailTr": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "status",
+              "docStart",
+              "docEnd",
+              "offsetCheck",
+              "detailTr"
+            ],
+            "additionalProperties": false
+          },
+          "scoreContribution": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "chunkId",
+          "category",
+          "concernType",
+          "severity",
+          "titleTr",
+          "originalQuote",
+          "explanationTr",
+          "potentialImpactTr",
+          "sourceSection",
+          "confidence",
+          "uncertaintyTr",
+          "evidence",
+          "scoreContribution"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "limitationsTr": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unclearTermsTr": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "security": {
+      "type": "object",
+      "properties": {
+        "injectionDetected": {
+          "type": "boolean"
+        },
+        "signals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "type": "string"
+              },
+              "excerpt": {
+                "type": "string"
+              },
+              "location": {
+                "type": "string",
+                "enum": [
+                  "visible",
+                  "hidden",
+                  "comment",
+                  "attribute"
+                ]
+              }
+            },
+            "required": [
+              "kind",
+              "excerpt",
+              "location"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "modelFlagged": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "injectionDetected",
+        "signals",
+        "modelFlagged"
+      ],
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "extractedChars": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "analyzedChars": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "chunksTotal": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "chunksAnalyzed": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "chunksFailed": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "schemaFailures": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        }
+      },
+      "required": [
+        "extractedChars",
+        "analyzedChars",
+        "chunksTotal",
+        "chunksAnalyzed",
+        "chunksFailed",
+        "schemaFailures"
+      ],
+      "additionalProperties": false
+    },
+    "needsHumanReview": {
+      "type": "boolean"
+    },
+    "disclaimerTr": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "url",
+    "domain",
+    "title",
+    "generatedAt",
+    "mode",
+    "provider",
+    "model",
+    "documentType",
+    "status",
+    "overallRiskScore",
+    "riskLevel",
+    "scoreExplanationTr",
+    "summaryTr",
+    "verifiedFindings",
+    "unverifiedFindings",
+    "limitationsTr",
+    "unclearTermsTr",
+    "security",
+    "coverage",
+    "needsHumanReview",
+    "disclaimerTr"
+  ],
+  "additionalProperties": false
+}

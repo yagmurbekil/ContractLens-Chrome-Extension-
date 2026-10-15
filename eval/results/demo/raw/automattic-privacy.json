@@ -1,0 +1,10 @@
+{
+ "docId": "automattic-privacy",
+ "strategy": "review",
+ "ranAt": "2026-10-15T15:39:59.207Z",
+ "durationMs": 42,
+ "candidates": 40,
+ "candidateChars": 7923,
+ "reviewResult": null,
+ "rawModelOutputs": []
+}

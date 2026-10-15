@@ -1,0 +1,319 @@
+{
+ "docId": "basecamp-terms",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:08.622Z",
+ "durationMs": 26,
+ "chunksTotal": 4,
+ "chunksAnalyzed": [
+  "c0",
+  "c1",
+  "c2",
+  "c3"
+ ],
+ "analyzedChars": 18179,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c0",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 5 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-003",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "critical",
+       "titleTr": "Kişisel verilerin satılabilmesi",
+       "originalQuote": "If you are using a free version of one of our Services, it is really free: we do not ask you for your credit card and — just like for customers who pay for our Services — we do not sell your data.",
+       "explanationTr": "Bu madde, kişisel verilerinizin satılabileceğini veya kiralanabileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz sizin kontrolünüz dışında birçok şirkete ulaşabilir.",
+       "sourceSection": null,
+       "startOffset": 2983,
+       "endOffset": 3179,
+       "confidence": 0.8,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-001",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Değişikliklerin kullanımla kabul sayılması",
+       "originalQuote": "When you use our Services, now or in the future, you are agreeing to the latest Terms.",
+       "explanationTr": "Bu madde, şirketin koşulları veya hizmeti değiştirebileceğini ve hizmeti kullanmaya devam etmenizin bu değişiklikleri kabul anlamına geleceğini belirtiyor.",
+       "potentialImpactTr": "Fark etmediğiniz değişikliklerle bağlı hale gelebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1571,
+       "endOffset": 1657,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 2287,
+       "endOffset": 2410,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "cancellation",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "İptal için koşullar",
+       "originalQuote": "If you cancel the Service before the end of your current paid up month, your cancellation will take effect immediately, and you will not be charged again.",
+       "explanationTr": "Bu madde, iptal için belirli bir süre veya yöntem şartı koyuyor.",
+       "potentialImpactTr": "Koşulu kaçırırsanız iptaliniz bir sonraki döneme kalabilir.",
+       "sourceSection": null,
+       "startOffset": 5176,
+       "endOffset": 5330,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-005",
+       "category": "refunds",
+       "concernType": "financial",
+       "severity": "low",
+       "titleTr": "Kalan süre için iade yapılmaması",
+       "originalQuote": "We do not automatically prorate unused time in the last billing cycle.",
+       "explanationTr": "Bu madde, kullanılmayan süre için orantılı iade yapılmayacağını belirtiyor.",
+       "potentialImpactTr": "Erken iptal etseniz bile ödediğiniz dönemin tamamı için ücret ödersiniz.",
+       "sourceSection": null,
+       "startOffset": 5331,
+       "endOffset": 5401,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c1",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 7 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "cancellation",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "İptal için koşullar",
+       "originalQuote": "If you cancel the Service before the end of your current paid up month, your cancellation will take effect immediately, and you will not be charged again.",
+       "explanationTr": "Bu madde, iptal için belirli bir süre veya yöntem şartı koyuyor.",
+       "potentialImpactTr": "Koşulu kaçırırsanız iptaliniz bir sonraki döneme kalabilir.",
+       "sourceSection": null,
+       "startOffset": 129,
+       "endOffset": 283,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Hesabın sebepsiz kapatılabilmesi",
+       "originalQuote": "We have the right to suspend or terminate your account and refuse any and all current or future use of our Services for any reason at any time.",
+       "explanationTr": "Bu madde, hesabınızın önceden bildirim yapılmadan veya herhangi bir sebeple kapatılabileceğini belirtiyor.",
+       "potentialImpactTr": "Hizmete ve içeriklerinize erişiminizi aniden kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 403,
+       "endOffset": 546,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "İçeriğin veya hesabın tek taraflı kaldırılması",
+       "originalQuote": "We also reserve the right to refuse the use of the Services to anyone for any reason at any time.",
+       "explanationTr": "Bu madde, şirkete içeriğinizi veya hesabınızı kendi takdirine göre kaldırma ya da kısıtlama yetkisi veriyor.",
+       "potentialImpactTr": "Bilgilerinize veya hizmete erişiminizi beklenmedik şekilde kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 844,
+       "endOffset": 941,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-005",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Koşulların tek taraflı değiştirilmesi",
+       "originalQuote": "We reserve the right at any time to modify or discontinue, temporarily or permanently, any part of our Services with or without notice.",
+       "explanationTr": "Bu madde, şirketin koşulları tek taraflı olarak değiştirebileceğini belirtiyor.",
+       "potentialImpactTr": "Kabul ettiğiniz koşullar, haberiniz olmadan aleyhinize değişebilir.",
+       "sourceSection": null,
+       "startOffset": 1861,
+       "endOffset": 1996,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-006",
+       "category": "price_changes",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "Fiyat değişikliği hakkı",
+       "originalQuote": "Sometimes we change the pricing structure for our products.",
+       "explanationTr": "Bu madde, şirkete ücretleri değiştirme hakkı tanıyor.",
+       "potentialImpactTr": "Ödediğiniz ücret zamanla artabilir.",
+       "sourceSection": null,
+       "startOffset": 2000,
+       "endOffset": 2059,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "refunds",
+       "concernType": "financial",
+       "severity": "low",
+       "titleTr": "Kalan süre için iade yapılmaması",
+       "originalQuote": "We do not automatically prorate unused time in the last billing cycle.",
+       "explanationTr": "Bu madde, kullanılmayan süre için orantılı iade yapılmayacağını belirtiyor.",
+       "potentialImpactTr": "Erken iptal etseniz bile ödediğiniz dönemin tamamı için ücret ödersiniz.",
+       "sourceSection": null,
+       "startOffset": 284,
+       "endOffset": 354,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-007",
+       "category": "warranty_disclaimer",
+       "concernType": "unfavorable_term",
+       "severity": "low",
+       "titleTr": "Garanti verilmemesi",
+       "originalQuote": "We provide these Services on an “as is” and “as available” basis.",
+       "explanationTr": "Bu madde, hizmetin \"olduğu gibi\" sunulduğunu ve garanti verilmediğini belirtiyor.",
+       "potentialImpactTr": "Hizmet beklendiği gibi çalışmazsa talepte bulunmanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 2479,
+       "endOffset": 2544,
+       "confidence": 0.5,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c2",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 2 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "İçeriğin veya hesabın tek taraflı kaldırılması",
+       "originalQuote": "We do not pre-screen content, but we reserve the right (but not the obligation) in our sole discretion to refuse or remove any content that is available via the Service.",
+       "explanationTr": "Bu madde, şirkete içeriğinizi veya hesabınızı kendi takdirine göre kaldırma ya da kısıtlama yetkisi veriyor.",
+       "potentialImpactTr": "Bilgilerinize veya hizmete erişiminizi beklenmedik şekilde kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1867,
+       "endOffset": 2036,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "You expressly understand and agree that we are not liable for any damages or losses resulting from your use of the API or third-party products that access data via the API.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 3799,
+       "endOffset": 3971,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c3",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 1 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "We are not liable or accountable for any of these third-party integrations.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 230,
+       "endOffset": 305,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

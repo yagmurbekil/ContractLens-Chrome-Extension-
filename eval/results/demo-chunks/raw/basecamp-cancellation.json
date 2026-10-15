@@ -1,0 +1,82 @@
+{
+ "docId": "basecamp-cancellation",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:08.709Z",
+ "durationMs": 4,
+ "chunksTotal": 1,
+ "chunksAnalyzed": [
+  "c0"
+ ],
+ "analyzedChars": 3117,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c0",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "subscription_terms",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 3 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "cancellation",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "İptal için koşullar",
+       "originalQuote": "We’ll permanently delete the content in your account from our servers 30 days after cancellation, and from our backups within 60 days.",
+       "explanationTr": "Bu madde, iptal için belirli bir süre veya yöntem şartı koyuyor.",
+       "potentialImpactTr": "Koşulu kaçırırsanız iptaliniz bir sonraki döneme kalabilir.",
+       "sourceSection": null,
+       "startOffset": 1818,
+       "endOffset": 1952,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Hesabın sebepsiz kapatılabilmesi",
+       "originalQuote": "We also retain the right to suspend or terminate accounts for any reason at any time, as outlined in our Terms of Service.",
+       "explanationTr": "Bu madde, hesabınızın önceden bildirim yapılmadan veya herhangi bir sebeple kapatılabileceğini belirtiyor.",
+       "potentialImpactTr": "Hizmete ve içeriklerinize erişiminizi aniden kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 2835,
+       "endOffset": 2957,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "refunds",
+       "concernType": "financial",
+       "severity": "low",
+       "titleTr": "Kalan süre için iade yapılmaması",
+       "originalQuote": "We don’t automatically prorate any unused time you may have left but if you haven’t used your account in months or just started a new billing cycle, contact us for a fair refund.",
+       "explanationTr": "Bu madde, kullanılmayan süre için orantılı iade yapılmayacağını belirtiyor.",
+       "potentialImpactTr": "Erken iptal etseniz bile ödediğiniz dönemin tamamı için ücret ödersiniz.",
+       "sourceSection": null,
+       "startOffset": 2223,
+       "endOffset": 2401,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

@@ -1,0 +1,277 @@
+{
+ "docId": "automattic-privacy",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:09.283Z",
+ "durationMs": 20,
+ "chunksTotal": 9,
+ "chunksAnalyzed": [
+  "c2",
+  "c3",
+  "c4",
+  "c6",
+  "c8"
+ ],
+ "analyzedChars": 28346,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c2",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "privacy_policy",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 2 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "data_collection",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Hassas veya kapsamlı veri toplama",
+       "originalQuote": "We may also collect information about your precise location via our mobile apps (like when you post a photograph with location information) if you allow us to do so through your mobile device operating system's permissions.",
+       "explanationTr": "Bu madde, konum, rehber veya cihaz bilgisi gibi kapsamlı verilerin toplanabileceğini belirtiyor.",
+       "potentialImpactTr": "Günlük davranışlarınız hakkında ayrıntılı bir profil oluşabilir.",
+       "sourceSection": null,
+       "startOffset": 1770,
+       "endOffset": 1993,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "tracking_cookies",
+       "concernType": "privacy",
+       "severity": "low",
+       "titleTr": "Takip, reklam ve pazarlama iletileri",
+       "originalQuote": "Automattic uses cookies and other technologies like pixel tags to help us identify and track visitors, usage, and access preferences for our Services, as well as track and understand email campaign effectiveness and to deliver targeted ads.",
+       "explanationTr": "Bu madde, çerez gibi teknolojilerle takip, reklam veya pazarlama amaçlı veri işlendiğini belirtiyor.",
+       "potentialImpactTr": "Çevrim içi davranışlarınız profillenebilir veya pazarlama iletileri alabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 3342,
+       "endOffset": 3582,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c3",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "privacy_policy",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru bu bölümde anahtar kelimeye dayalı bir dikkat noktası bulamadı. Bu, metnin risksiz olduğu anlamına gelmez.",
+     "findings": [],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c4",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "privacy_policy",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 3 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "high",
+       "titleTr": "Verilerin üçüncü taraflarla paylaşılması",
+       "originalQuote": "Third-party vendors: We may share information about you with third-party vendors who need the information in order to provide their services to us, or to provide their services to you or your site.",
+       "explanationTr": "Bu madde, verilerinizin iş ortakları, reklam verenler veya diğer üçüncü taraflarla paylaşılabileceğini belirtiyor.",
+       "potentialImpactTr": "Kişisel bilgilerinizin kimlerle paylaşıldığını kontrol etmeniz zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 402,
+       "endOffset": 599,
+       "confidence": 0.7,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin başka ülkelere veya şirketlere aktarılması",
+       "originalQuote": "Business transfers: In connection with any merger, sale of company assets, or acquisition of all or a portion of our business by another company, or in the unlikely event that Automattic goes out of business or enters bankruptcy, user information would likely be one of the assets that is transferred or acquired by a third party.",
+       "explanationTr": "Bu madde, verilerinizin yurt dışına ya da şirket satışı gibi durumlarda başka bir şirkete aktarılabileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz farklı koruma kurallarına tabi yerlere veya şirketlere geçebilir.",
+       "sourceSection": null,
+       "startOffset": 3388,
+       "endOffset": 3718,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "tracking_cookies",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Hedefli reklam için veri kullanımı",
+       "originalQuote": "For instance, we may publish aggregate statistics about the use of our Services, or share a hashed version of your email address to facilitate customized ad campaigns on other platforms.",
+       "explanationTr": "Bu madde, bilgilerinizin size veya başkalarına hedefli reklam göstermek için kullanılabileceğini belirtiyor.",
+       "potentialImpactTr": "Çevrim içi davranışlarınız reklam amaçlı profillenebilir.",
+       "sourceSection": null,
+       "startOffset": 4405,
+       "endOffset": 4591,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c6",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "privacy_policy",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 3 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-003",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "critical",
+       "titleTr": "Kişisel verilerin satılabilmesi",
+       "originalQuote": "We never directly sell your personal information in the conventional sense (i.",
+       "explanationTr": "Bu madde, kişisel verilerinizin satılabileceğini veya kiralanabileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz sizin kontrolünüz dışında birçok şirkete ulaşabilir.",
+       "sourceSection": null,
+       "startOffset": 4460,
+       "endOffset": 4538,
+       "confidence": 0.8,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "high",
+       "titleTr": "Verilerin üçüncü taraflarla paylaşılması",
+       "originalQuote": "And we share this information with the categories of third parties described in the Sharing Information section.",
+       "explanationTr": "Bu madde, verilerinizin iş ortakları, reklam verenler veya diğer üçüncü taraflarla paylaşılabileceğini belirtiyor.",
+       "potentialImpactTr": "Kişisel bilgilerinizin kimlerle paylaşıldığını kontrol etmeniz zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 3282,
+       "endOffset": 3394,
+       "confidence": 0.7,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-001",
+       "category": "data_retention",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin tamamen silinmemesi",
+       "originalQuote": ") Please keep in mind that we may continue to retain your information after closing your account, as described in How Long We Keep Information above — for example, when that information is reasonably needed to comply with (or demonstrate our compliance with) legal obligations such as law enforcement requests, or reasonably needed for our legitimate business interests.",
+       "explanationTr": "Bu madde, silme talebinden veya hesap kapatıldıktan sonra da bazı verilerin saklanabileceğini belirtiyor.",
+       "potentialImpactTr": "Silindiğini düşündüğünüz bilgiler bir süre daha şirkette kalabilir.",
+       "sourceSection": null,
+       "startOffset": 9,
+       "endOffset": 379,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c8",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "privacy_policy",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 3 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin başka ülkelere veya şirketlere aktarılması",
+       "originalQuote": "Because Automattic's Services are offered worldwide, the information about you that we process when you use the Services in the EU may be used, stored, and/or accessed by individuals operating outside the European Economic Area (EEA) who work for us, other members of our group of companies, or third-party data processors.",
+       "explanationTr": "Bu madde, verilerinizin yurt dışına ya da şirket satışı gibi durumlarda başka bir şirkete aktarılabileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz farklı koruma kurallarına tabi yerlere veya şirketlere geçebilir.",
+       "sourceSection": null,
+       "startOffset": 798,
+       "endOffset": 1121,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "tracking_cookies",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Hedefli reklam için veri kullanımı",
+       "originalQuote": "These ad networks and analytics providers may set tracking technologies (like cookies) to collect information about your use of our Services and across other websites and online services.",
+       "explanationTr": "Bu madde, bilgilerinizin size veya başkalarına hedefli reklam göstermek için kullanılabileceğini belirtiyor.",
+       "potentialImpactTr": "Çevrim içi davranışlarınız reklam amaçlı profillenebilir.",
+       "sourceSection": null,
+       "startOffset": 1939,
+       "endOffset": 2126,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Değişikliklerin kullanımla kabul sayılması",
+       "originalQuote": "Your further use of the Services after a change to our Privacy Policy will be subject to the updated policy.",
+       "explanationTr": "Bu madde, şirketin koşulları veya hizmeti değiştirebileceğini ve hizmeti kullanmaya devam etmenizin bu değişiklikleri kabul anlamına geleceğini belirtiyor.",
+       "potentialImpactTr": "Fark etmediğiniz değişikliklerle bağlı hale gelebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 4814,
+       "endOffset": 4922,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

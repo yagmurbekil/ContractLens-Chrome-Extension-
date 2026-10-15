@@ -1,0 +1,10 @@
+{
+ "docId": "security-injection-fixture",
+ "strategy": "review",
+ "ranAt": "2026-10-15T15:39:59.394Z",
+ "durationMs": 4,
+ "candidates": 6,
+ "candidateChars": 740,
+ "reviewResult": null,
+ "rawModelOutputs": []
+}

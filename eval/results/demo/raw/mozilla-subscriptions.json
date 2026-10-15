@@ -1,0 +1,10 @@
+{
+ "docId": "mozilla-subscriptions",
+ "strategy": "review",
+ "ranAt": "2026-10-15T15:39:59.349Z",
+ "durationMs": 25,
+ "candidates": 40,
+ "candidateChars": 5068,
+ "reviewResult": null,
+ "rawModelOutputs": []
+}

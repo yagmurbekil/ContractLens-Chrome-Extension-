@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "documentType": {
+      "type": "string",
+      "enum": [
+        "terms_of_service",
+        "privacy_policy",
+        "subscription_terms",
+        "cookie_policy",
+        "refund_policy",
+        "data_processing",
+        "eula",
+        "other_legal",
+        "not_legal",
+        "unknown"
+      ]
+    },
+    "overallRiskScore": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "riskLevel": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical"
+      ]
+    },
+    "summaryTr": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 800
+    },
+    "findings": {
+      "maxItems": 12,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^risk-\\d{3}$"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "data_collection",
+              "data_sharing",
+              "data_retention",
+              "tracking_cookies",
+              "ai_training",
+              "auto_renewal",
+              "cancellation",
+              "refunds",
+              "price_changes",
+              "unilateral_changes",
+              "termination_suspension",
+              "liability_limitation",
+              "indemnification",
+              "arbitration_class_waiver",
+              "jurisdiction",
+              "content_license",
+              "warranty_disclaimer",
+              "other"
+            ]
+          },
+          "concernType": {
+            "type": "string",
+            "enum": [
+              "privacy",
+              "financial",
+              "contractual",
+              "unfavorable_term",
+              "uncertainty"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "moderate",
+              "high",
+              "critical"
+            ]
+          },
+          "titleTr": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "originalQuote": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 600
+          },
+          "explanationTr": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 700
+          },
+          "potentialImpactTr": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 700
+          },
+          "sourceSection": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "startOffset": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "endOffset": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "uncertaintyTr": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 700
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "category",
+          "concernType",
+          "severity",
+          "titleTr",
+          "originalQuote",
+          "explanationTr",
+          "potentialImpactTr",
+          "sourceSection",
+          "startOffset",
+          "endOffset",
+          "confidence",
+          "uncertaintyTr"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "limitationsTr": {
+      "maxItems": 8,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+      }
+    },
+    "injectionSuspected": {
+      "type": "boolean"
+    },
+    "needsHumanReview": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "documentType",
+    "overallRiskScore",
+    "riskLevel",
+    "summaryTr",
+    "findings",
+    "limitationsTr",
+    "injectionSuspected",
+    "needsHumanReview"
+  ],
+  "additionalProperties": false
+}

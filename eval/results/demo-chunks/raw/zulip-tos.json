@@ -1,0 +1,353 @@
+{
+ "docId": "zulip-tos",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:08.975Z",
+ "durationMs": 18,
+ "chunksTotal": 9,
+ "chunksAnalyzed": [
+  "c4",
+  "c5",
+  "c6",
+  "c7",
+  "c8"
+ ],
+ "analyzedChars": 25882,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c4",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 2 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Değişikliklerin kullanımla kabul sayılması",
+       "originalQuote": "We may suspend or discontinue any part of the Services, or we may introduce new features or impose limits on certain features or restrict access to parts or all of the Services.",
+       "explanationTr": "Bu madde, şirketin koşulları veya hizmeti değiştirebileceğini ve hizmeti kullanmaya devam etmenizin bu değişiklikleri kabul anlamına geleceğini belirtiyor.",
+       "potentialImpactTr": "Fark etmediğiniz değişikliklerle bağlı hale gelebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1457,
+       "endOffset": 1634,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "İçeriğin veya hesabın tek taraflı kaldırılması",
+       "originalQuote": "We reserve the right to remove any Content from the Services at any time, for any reason (including, but not limited to, if someone alleges you contributed that Content in violation of these Terms), in our sole discretion, and without notice.",
+       "explanationTr": "Bu madde, şirkete içeriğinizi veya hesabınızı kendi takdirine göre kaldırma ya da kısıtlama yetkisi veriyor.",
+       "potentialImpactTr": "Bilgilerinize veya hizmete erişiminizi beklenmedik şekilde kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1635,
+       "endOffset": 1877,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c5",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 6 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "auto_renewal",
+       "concernType": "financial",
+       "severity": "high",
+       "titleTr": "Otomatik yenileme",
+       "originalQuote": "(g) Auto-Renewal for Paid Services.",
+       "explanationTr": "Bu madde, aboneliğin siz iptal etmedikçe otomatik olarak yenileneceğini belirtiyor.",
+       "potentialImpactTr": "İptal etmeyi unutursanız yeni dönem için ücret ödeyebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1855,
+       "endOffset": 1890,
+       "confidence": 0.8,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "cancellation",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "İptal için koşullar",
+       "originalQuote": "IF YOU DO NOT WANT TO CONTINUE TO BE CHARGED ON A RECURRING BASIS, YOU MUST CANCEL THE APPLICABLE PAID SERVICE THROUGH YOUR BILLING SETTINGS OR TERMINATE YOUR ZULIP ACCOUNT BEFORE THE END OF THE RECURRING TERM.",
+       "explanationTr": "Bu madde, iptal için belirli bir süre veya yöntem şartı koyuyor.",
+       "potentialImpactTr": "Koşulu kaçırırsanız iptaliniz bir sonraki döneme kalabilir.",
+       "sourceSection": null,
+       "startOffset": 2595,
+       "endOffset": 2805,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "auto_renewal",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "Deneme süresinin ücretliye dönüşmesi",
+       "originalQuote": "You must stop using a Paid Service before the end of the trial period in order to avoid being charged for that Paid Service.",
+       "explanationTr": "Bu madde, deneme süresi bitiminde iptal etmezseniz ücretlendirileceğinizi belirtiyor.",
+       "potentialImpactTr": "Unutursanız istemediğiniz bir ödeme yapabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 3656,
+       "endOffset": 3780,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-005",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Hesabın sebepsiz kapatılabilmesi",
+       "originalQuote": "Zulip is also free to terminate (or suspend access to) your use of the Services or your account for any reason at our sole discretion, including your breach of these Terms.",
+       "explanationTr": "Bu madde, hesabınızın önceden bildirim yapılmadan veya herhangi bir sebeple kapatılabileceğini belirtiyor.",
+       "potentialImpactTr": "Hizmete ve içeriklerinize erişiminizi aniden kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 4225,
+       "endOffset": 4397,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-006",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Tazmin yükümlülüğü",
+       "originalQuote": "By way of example, all of the following will survive termination: any obligation you have to pay us or indemnify us, any limitations on our liability, any terms regarding ownership or intellectual property rights, and terms regarding disputes between us, including without limitation the arbitration agreement.",
+       "explanationTr": "Bu madde, belirli durumlarda şirketin zararlarını sizin karşılamanızı öngörüyor.",
+       "potentialImpactTr": "Üçüncü kişilerin talepleri nedeniyle masraflarla karşılaşabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 5396,
+       "endOffset": 5706,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "refunds",
+       "concernType": "financial",
+       "severity": "low",
+       "titleTr": "Kalan süre için iade yapılmaması",
+       "originalQuote": "However, you will not be eligible for a prorated refund of any portion of the subscription fee paid for the then-current subscription period.",
+       "explanationTr": "Bu madde, kullanılmayan süre için orantılı iade yapılmayacağını belirtiyor.",
+       "potentialImpactTr": "Erken iptal etseniz bile ödediğiniz dönemin tamamı için ücret ödersiniz.",
+       "sourceSection": null,
+       "startOffset": 2453,
+       "endOffset": 2594,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c6",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 1 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Tazmin yükümlülüğü",
+       "originalQuote": "By way of example, all of the following will survive termination: any obligation you have to pay us or indemnify us, any limitations on our liability, any terms regarding ownership or intellectual property rights, and terms regarding disputes between us, including without limitation the arbitration agreement.",
+       "explanationTr": "Bu madde, belirli durumlarda şirketin zararlarını sizin karşılamanızı öngörüyor.",
+       "potentialImpactTr": "Üçüncü kişilerin talepleri nedeniyle masraflarla karşılaşabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 54,
+       "endOffset": 364,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c7",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 6 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-005",
+       "category": "arbitration_class_waiver",
+       "concernType": "contractual",
+       "severity": "high",
+       "titleTr": "Tahkim veya toplu dava feragati",
+       "originalQuote": "If such negotiations do not resolve the dispute, it shall be finally settled by binding arbitration in San Francisco County, California.",
+       "explanationTr": "Bu madde, anlaşmazlıkların mahkeme yerine tahkimle çözülmesini veya toplu dava hakkından feragati öngörüyor.",
+       "potentialImpactTr": "Hak arama yollarınız kısıtlanabilir.",
+       "sourceSection": null,
+       "startOffset": 3453,
+       "endOffset": 3589,
+       "confidence": 0.75,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-001",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "Limitation of Liability.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 391,
+       "endOffset": 415,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Tazmin yükümlülüğü",
+       "originalQuote": "To the fullest extent allowed by applicable law, you agree to indemnify and hold the Zulip Parties harmless from and against any and all claims, liabilities, damages (actual and consequential), losses and expenses (including attorneys’ fees) arising from or in any way related to any claims relating to (a) your use of the Services (including any actions taken by a third party using your account), and (b) your violation of these Terms.",
+       "explanationTr": "Bu madde, belirli durumlarda şirketin zararlarını sizin karşılamanızı öngörüyor.",
+       "potentialImpactTr": "Üçüncü kişilerin talepleri nedeniyle masraflarla karşılaşabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1445,
+       "endOffset": 1882,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "other",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Sözleşmenin onayınız olmadan devredilebilmesi",
+       "originalQuote": "We may transfer, assign, or delegate these Terms and our rights and obligations without consent.",
+       "explanationTr": "Bu madde, şirketin sözleşmeyi veya haklarını sizin onayınız olmadan başka bir şirkete devredebileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz ve hesabınız tanımadığınız bir şirkete geçebilir.",
+       "sourceSection": null,
+       "startOffset": 2101,
+       "endOffset": 2197,
+       "confidence": 0.5,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-006",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Haklardan feragat veya ibra",
+       "originalQuote": "In any litigation between you and Zulip over whether to vacate or enforce an arbitration award, YOU AND ZULIP WAIVE ALL RIGHTS TO A JURY TRIAL, and elect instead to have the dispute be resolved by a judge.",
+       "explanationTr": "Bu madde, bazı yasal haklarınızdan vazgeçmenizi veya şirketi taleplerden muaf tutmanızı öngörüyor.",
+       "potentialImpactTr": "Bir sorun yaşadığınızda hak talep etme imkânınız daralabilir.",
+       "sourceSection": null,
+       "startOffset": 5403,
+       "endOffset": 5608,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "jurisdiction",
+       "concernType": "contractual",
+       "severity": "low",
+       "titleTr": "Uygulanacak hukuk",
+       "originalQuote": "These Terms are governed by and will be construed under the Federal Arbitration Act, applicable federal law, and the laws of the State of California, without regard to the conflicts of laws provisions thereof.",
+       "explanationTr": "Bu madde, sözleşmeye hangi ülkenin veya eyaletin hukukunun uygulanacağını belirliyor.",
+       "potentialImpactTr": "Bir uyuşmazlıkta size yabancı bir hukuk sistemine göre hak aramanız gerekebilir.",
+       "sourceSection": null,
+       "startOffset": 2214,
+       "endOffset": 2423,
+       "confidence": 0.45,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c8",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 1 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "arbitration_class_waiver",
+       "concernType": "contractual",
+       "severity": "high",
+       "titleTr": "Tahkim veya toplu dava feragati",
+       "originalQuote": "In any litigation between you and Zulip over whether to vacate or enforce an arbitration award, YOU AND ZULIP WAIVE ALL RIGHTS TO A JURY TRIAL, and elect instead to have the dispute be resolved by a judge.",
+       "explanationTr": "Bu madde, anlaşmazlıkların mahkeme yerine tahkimle çözülmesini veya toplu dava hakkından feragati öngörüyor.",
+       "potentialImpactTr": "Hak arama yollarınız kısıtlanabilir.",
+       "sourceSection": null,
+       "startOffset": 190,
+       "endOffset": 395,
+       "confidence": 0.75,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

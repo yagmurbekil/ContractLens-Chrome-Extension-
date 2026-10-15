@@ -1,0 +1,10 @@
+{
+ "docId": "basecamp-cancellation",
+ "strategy": "review",
+ "ranAt": "2026-10-15T15:39:58.578Z",
+ "durationMs": 3,
+ "candidates": 18,
+ "candidateChars": 2161,
+ "reviewResult": null,
+ "rawModelOutputs": []
+}

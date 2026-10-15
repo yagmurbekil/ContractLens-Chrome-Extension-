@@ -1,0 +1,231 @@
+{
+  "ranAt": "2026-10-15T15:42:58.632Z",
+  "failed": 0,
+  "results": [
+    {
+      "name": "service worker registered",
+      "ok": true,
+      "detail": "mkdigdnfbkfkamcjnldjpaajfnjkhnnk"
+    },
+    {
+      "name": "subscription.html: document type detected",
+      "ok": true,
+      "detail": "subscription_terms"
+    },
+    {
+      "name": "subscription.html: status ok",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "subscription.html: ≥3 verified findings in popup",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "name": "subscription.html: demo mode clearly labelled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "subscription.html: disclaimer visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "subscription.html: injection warning absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "subscription.html: full report renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "subscription.html: \"show source\" selects the quote in the page",
+      "ok": true,
+      "detail": "Your subscription will automatically renew at the end of eac"
+    },
+    {
+      "name": "subscription.html: no consent/accept button clicked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "turkce-sozlesme.html: document type detected",
+      "ok": true,
+      "detail": "terms_of_service"
+    },
+    {
+      "name": "turkce-sozlesme.html: status ok",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "turkce-sozlesme.html: ≥3 verified findings in popup",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "name": "turkce-sozlesme.html: demo mode clearly labelled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "turkce-sozlesme.html: disclaimer visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "turkce-sozlesme.html: injection warning absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "turkce-sozlesme.html: full report renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "turkce-sozlesme.html: \"show source\" selects the quote in the page",
+      "ok": true,
+      "detail": "Aylık abonelik, Üye tarafından iptal edilmediği sürece her a"
+    },
+    {
+      "name": "turkce-sozlesme.html: no consent/accept button clicked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "injection.html: document type detected",
+      "ok": true,
+      "detail": "privacy_policy"
+    },
+    {
+      "name": "injection.html: status ok",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "injection.html: ≥1 verified findings in popup",
+      "ok": true,
+      "detail": "3"
+    },
+    {
+      "name": "injection.html: demo mode clearly labelled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "injection.html: disclaimer visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "injection.html: injection warning shown",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "injection.html: full report renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "injection.html: \"show source\" selects the quote in the page",
+      "ok": true,
+      "detail": "We may sell your personal information to data brokers and ot"
+    },
+    {
+      "name": "injection.html: no consent/accept button clicked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "benign.html: document type detected",
+      "ok": true,
+      "detail": "privacy_policy"
+    },
+    {
+      "name": "benign.html: status ok",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "benign.html: ≥0 verified findings in popup",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "benign.html: no findings",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "benign.html: demo mode clearly labelled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "benign.html: disclaimer visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "benign.html: injection warning absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "benign.html: full report renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "benign.html: no consent/accept button clicked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ambiguous.html: document type detected",
+      "ok": true,
+      "detail": "terms_of_service"
+    },
+    {
+      "name": "ambiguous.html: status insufficient_data",
+      "ok": true,
+      "detail": "insufficient_data"
+    },
+    {
+      "name": "ambiguous.html: demo mode clearly labelled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ambiguous.html: disclaimer visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ambiguous.html: injection warning absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ambiguous.html: full report renders",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ambiguous.html: no consent/accept button clicked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "unsupported page state shown for extension pages",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

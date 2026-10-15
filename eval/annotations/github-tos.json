@@ -1,0 +1,367 @@
+{
+ "items": [
+  {
+   "id": "G1",
+   "category": "ai_training",
+   "severity": "high",
+   "anchors": [
+    "You grant GitHub and our Affiliates the right to store, host, archive, parse, display, and make copies of Your Content as necessary to provide, develop, and improve the Service, including by training AI Features",
+    "use of Your Content to develop, train, and improve artificial intelligence and machine learning models and technologies of GitHub and our Affiliates is within the scope of this license"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G2",
+   "category": "content_license",
+   "severity": "low",
+   "anchors": [
+    "You will not receive payment for these rights."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G3",
+   "category": "content_license",
+   "severity": "moderate",
+   "anchors": [
+    "However, you waive these rights and agree not to assert them against us or our Affiliates"
+   ],
+   "note": "Moral rights waiver"
+  },
+  {
+   "id": "G4",
+   "category": "ai_training",
+   "severity": "moderate",
+   "anchors": [
+    "If you provide your private repository content as Input to AI Features, we may use that Input to provide, develop, train, and improve the Service, including AI Features."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G5",
+   "category": "ai_training",
+   "severity": "high",
+   "anchors": [
+    "You also grant GitHub and its Affiliates a license to collect and use your Inputs and Outputs to develop, train and improve artificial intelligence and machine learning models and technologies including those that power AI Features"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G6",
+   "category": "ai_training",
+   "severity": "moderate",
+   "anchors": [
+    "The opt-out right described in this section applies solely to the use of your Inputs and Outputs as described in this section, and does not apply to the license granted in Sections D.4-D.8"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G7",
+   "category": "content_license",
+   "severity": "low",
+   "anchors": [
+    "GitHub will have a royalty-free, fully paid-up, worldwide, transferable, sub-licensable, irrevocable and perpetual license to implement, use, modify, commercially exploit and/or incorporate the Feedback"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G8",
+   "category": "price_changes",
+   "severity": "low",
+   "anchors": [
+    "however, prices are subject to change at the end of a payment term."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G9",
+   "category": "refunds",
+   "severity": "moderate",
+   "anchors": [
+    "For monthly or yearly payment plans, the Service is billed in advance on a monthly or yearly basis respectively and is non-refundable.",
+    "There will be no refunds or credits for partial months of service, downgrade refunds, or refunds for months unused with an open Account",
+    "In order to treat everyone equally, no exceptions will be made."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G10",
+   "category": "cancellation",
+   "severity": "low",
+   "anchors": [
+    "We are not able to cancel Accounts in response to an email or phone request.",
+    "It is your responsibility to properly cancel your Account with GitHub."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G11",
+   "category": "data_retention",
+   "severity": "moderate",
+   "anchors": [
+    "We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements",
+    "This information cannot be recovered once your Account is canceled.",
+    "though some information may remain in encrypted backups"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G12",
+   "category": "termination_suspension",
+   "severity": "high",
+   "anchors": [
+    "GitHub has the right to suspend or terminate your access to all or any part of the Website at any time, with or without cause, with or without notice, effective immediately.",
+    "GitHub reserves the right to refuse service to anyone for any reason at any time."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G13",
+   "category": "warranty_disclaimer",
+   "severity": "moderate",
+   "anchors": [
+    "GitHub provides the Website and the Service “as is” and “as available,” without warranty of any kind.",
+    "You assume full responsibility and risk of loss resulting from your downloading and/or use of files, information, content or other material obtained from the Service."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G14",
+   "category": "liability_limitation",
+   "severity": "high",
+   "anchors": [
+    "You understand and agree that we will not be liable to you or any third party for any loss of profits, use, goodwill, or data, or for any incidental, indirect, special, consequential or exemplary damages",
+    "Our liability is limited whether or not we have been informed of the possibility of such damages"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G15",
+   "category": "indemnification",
+   "severity": "moderate",
+   "anchors": [
+    "If you have a dispute with one or more Users, you agree to release GitHub from any and all claims, demands and damages"
+   ],
+   "note": "Release"
+  },
+  {
+   "id": "G16",
+   "category": "indemnification",
+   "severity": "moderate",
+   "anchors": [
+    "You agree to indemnify us, defend us, and hold us harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the Website and the Service",
+    "Your indemnity obligations in Section Q apply to your use of AI Features and Output"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G17",
+   "category": "unilateral_changes",
+   "severity": "moderate",
+   "anchors": [
+    "We reserve the right, at our sole discretion, to amend these Terms of Service at any time",
+    "For any other modifications, your continued use of the Website constitutes agreement to our revisions of these Terms of Service.",
+    "Customer's continued use of the Service after those 30 days constitutes agreement to those revisions of this Agreement."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G18",
+   "category": "unilateral_changes",
+   "severity": "low",
+   "anchors": [
+    "We reserve the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Website (or any part of it) with or without notice.",
+    "Beta Previews may not be supported and may be changed at any time without notice."
+   ],
+   "note": ""
+  },
+  {
+   "id": "G19",
+   "category": "jurisdiction",
+   "severity": "low",
+   "anchors": [
+    "You and GitHub agree to submit to the exclusive jurisdiction and venue of the courts located in the City and County of San Francisco, California.",
+    "governed by the federal laws of the United States of America and the laws of the State of California"
+   ],
+   "note": ""
+  },
+  {
+   "id": "G20",
+   "category": "other",
+   "severity": "moderate",
+   "anchors": [
+    "GitHub may assign or delegate these Terms of Service and/or the GitHub Privacy Statement, in whole or in part, to any person or entity at any time with or without your consent"
+   ],
+   "note": "Assignment without consent"
+  }
+ ],
+ "ambiguous": [
+  {
+   "id": "GA1",
+   "anchors": [
+    "you hereby waive any and all policies, terms, conditions, or contractual provisions governing products, services, websites or datasets you own or operate"
+   ],
+   "note": "Access reciprocity — applies only to very large AI developers"
+  },
+  {
+   "id": "GA2",
+   "anchors": [
+    "charge interest on past due amounts at 1.0% per month"
+   ],
+   "note": "Invoiced (business) users only"
+  },
+  {
+   "id": "GA3",
+   "anchors": [
+    "By using a Beta Preview, you use it at your own risk."
+   ],
+   "note": "Beta risk"
+  },
+  {
+   "id": "GA4",
+   "anchors": [
+    "You are responsible for determining whether your use of Output requires a third-party license",
+    "We do not guarantee that Output is free of errors, vulnerabilities, or intellectual property claims.",
+    "Output may be inaccurate, incomplete, or non-functional."
+   ],
+   "note": "AI output responsibility"
+  },
+  {
+   "id": "GA5",
+   "anchors": [
+    "we may be compelled by law to disclose the contents of your private repositories"
+   ],
+   "note": "Legal disclosure"
+  },
+  {
+   "id": "GA6",
+   "anchors": [
+    "GitHub cannot and will not be liable for any loss or damage from your failure to comply with this security obligation."
+   ],
+   "note": "Account security"
+  },
+  {
+   "id": "GA7",
+   "anchors": [
+    "If you choose to downgrade your Account, you may lose access to Content, features, or capacity of your Account."
+   ],
+   "note": "Downgrade data loss"
+  },
+  {
+   "id": "GA8",
+   "anchors": [
+    "We will not delete Content that you have contributed to other Users' repositories or that other Users have forked."
+   ],
+   "note": "Forked content persists"
+  },
+  {
+   "id": "GA9",
+   "anchors": [
+    "You are responsible for Your Content and any harm resulting from it.",
+    "We are not responsible for any public display or misuse of Your Content."
+   ],
+   "note": "User responsibility"
+  },
+  {
+   "id": "GA10",
+   "anchors": [
+    "We will terminate the Accounts of repeat infringers"
+   ],
+   "note": "DMCA"
+  },
+  {
+   "id": "GA11",
+   "anchors": [
+    "Abuse or excessively frequent requests to GitHub via the API may result in the temporary or permanent suspension of your Account's access to the API."
+   ],
+   "note": "API suspension"
+  },
+  {
+   "id": "GA12",
+   "anchors": [
+    "GitHub personnel will not access private repository content without your consent except in the following circumstances"
+   ],
+   "note": "Private repo access exceptions"
+  },
+  {
+   "id": "GA13",
+   "anchors": [
+    "you grant GitHub the rights we need to use Your Content without attribution"
+   ],
+   "note": "Attribution fallback"
+  },
+  {
+   "id": "GA14",
+   "anchors": [
+    "If you change from a monthly billing plan to a yearly billing plan, GitHub will bill you for a full year at the next monthly billing date."
+   ],
+   "note": "Billing change"
+  },
+  {
+   "id": "GA15",
+   "anchors": [
+    "By agreeing to these Terms, you are giving us permission to charge your on-file credit card"
+   ],
+   "note": "Payment authorization"
+  },
+  {
+   "id": "GA16",
+   "anchors": [
+    "We will have no liability for any failure or delay due to matters beyond our reasonable control."
+   ],
+   "note": "Force majeure"
+  },
+  {
+   "id": "GA17",
+   "anchors": [
+    "Communications made through email or GitHub Support's messaging system will not constitute legal notice to GitHub"
+   ],
+   "note": "Legal notice formalities"
+  },
+  {
+   "id": "GA18",
+   "anchors": [
+    "GitHub only offers support via email, in-Service communications, and electronic messages."
+   ],
+   "note": "No phone support"
+  },
+  {
+   "id": "GA19",
+   "anchors": [
+    "You may not use GitHub in violation of export control or sanctions laws"
+   ],
+   "note": "Sanctions"
+  },
+  {
+   "id": "GA20",
+   "anchors": [
+    "Unless you opt out, GitHub's Affiliates may use your Inputs and Outputs under this license"
+   ],
+   "note": "Affiliate use (part of G5)"
+  },
+  {
+   "id": "GA21",
+   "anchors": [
+    "These licenses end when you remove Your Content, unless other Users have forked it."
+   ],
+   "note": "License persistence"
+  },
+  {
+   "id": "GA22",
+   "anchors": [
+    "You agree that any non-public Beta Preview information we give you, such as information about a private Beta Preview, will be considered GitHub’s confidential information"
+   ],
+   "note": "Beta confidentiality"
+  },
+  {
+   "id": "GA23",
+   "anchors": [
+    "One person or legal entity may maintain no more than one free Account"
+   ],
+   "note": "Account limits"
+  }
+ ],
+ "docId": "github-tos",
+ "annotator": "Claude (AI developer agent), 2026-10-15",
+ "methodology": "Manual review of the full text by the ContractLens developer agent (Claude, an AI model) — not by a lawyer. An 'item' is a clause a typical consumer could reasonably consider unfavourable or risky (privacy, financial, contractual, unfavourable term). 'ambiguous' lists clauses where reasonable reviewers could disagree; predictions matching them are counted separately, neither TP nor FP. Each item lists one or more verbatim anchor sentences; any one anchor overlapping a prediction's verified quote counts as a match."
+}

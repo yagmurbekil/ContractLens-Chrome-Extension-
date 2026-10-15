@@ -1,0 +1,61 @@
+{
+  "ranAt": "2026-10-15T15:42:06.765Z",
+  "failed": 0,
+  "results": [
+    {
+      "name": "privacy notice names the LLM provider before sending",
+      "ok": true,
+      "detail": "Gizlilik\n\nAnaliz başlatıldığında, kural motorunun bu sayfadan seçtiği 40 madde (yaklaşık 9.924 karakter), sayfa adresi v"
+    },
+    {
+      "name": "analysis that takes longer than 30 s completes (service worker stays alive)",
+      "ok": true,
+      "detail": "37 s"
+    },
+    {
+      "name": "LLM mode (no demo badge)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "report produced (ok or uncertain)",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "verified findings rendered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "fabricated quote rejected and listed as unverified",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "review scope disclosed (candidates sent to the LLM)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Page Agent locator ran through the backend proxy",
+      "ok": true,
+      "detail": "2 agent LLM calls"
+    },
+    {
+      "name": "agent tool list contained no state-changing tools",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "server always forced its own model and key",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no accept button clicked",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

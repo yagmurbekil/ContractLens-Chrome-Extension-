@@ -1,0 +1,10 @@
+{
+ "docId": "zulip-tos",
+ "strategy": "review",
+ "ranAt": "2026-10-15T15:39:58.822Z",
+ "durationMs": 44,
+ "candidates": 40,
+ "candidateChars": 10031,
+ "reviewResult": null,
+ "rawModelOutputs": []
+}

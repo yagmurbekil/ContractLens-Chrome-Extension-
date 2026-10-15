@@ -1,0 +1,240 @@
+{
+ "docId": "mozilla-subscriptions",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:09.407Z",
+ "durationMs": 13,
+ "chunksTotal": 3,
+ "chunksAnalyzed": [
+  "c0",
+  "c1",
+  "c2"
+ ],
+ "analyzedChars": 15365,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c0",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "subscription_terms",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 3 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-002",
+       "category": "auto_renewal",
+       "concernType": "financial",
+       "severity": "high",
+       "titleTr": "Otomatik yenileme",
+       "originalQuote": "We offer the Services as automatically renewing subscription services.",
+       "explanationTr": "Bu madde, aboneliğin siz iptal etmedikçe otomatik olarak yenileneceğini belirtiyor.",
+       "potentialImpactTr": "İptal etmeyi unutursanız yeni dönem için ücret ödeyebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1971,
+       "endOffset": 2041,
+       "confidence": 0.8,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-001",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin başka ülkelere veya şirketlere aktarılması",
+       "originalQuote": "This means that your information might be processed on servers located outside of the country where you live, and that country may have a different level of data protection regulation than yours.",
+       "explanationTr": "Bu madde, verilerinizin yurt dışına ya da şirket satışı gibi durumlarda başka bir şirkete aktarılabileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz farklı koruma kurallarına tabi yerlere veya şirketlere geçebilir.",
+       "sourceSection": null,
+       "startOffset": 1667,
+       "endOffset": 1862,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "cancellation",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "İptal için koşullar",
+       "originalQuote": "The first time you subscribe to the Services through Mozilla’s website, if you cancel your account within the first 30 days, you may request a refund and Mozilla will refund your first subscription term.",
+       "explanationTr": "Bu madde, iptal için belirli bir süre veya yöntem şartı koyuyor.",
+       "potentialImpactTr": "Koşulu kaçırırsanız iptaliniz bir sonraki döneme kalabilir.",
+       "sourceSection": null,
+       "startOffset": 2498,
+       "endOffset": 2701,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c1",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "subscription_terms",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 1 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "In the event that an email cannot be delivered to you, we will keep it on our servers and delete it after it has been delivered (in no event will we hold onto it for more than three days).",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 1285,
+       "endOffset": 1473,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c2",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "subscription_terms",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 7 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "To the extent permitted by applicable law, you agree that Mozilla will not be liable in any way for any inability to use the Services, for any limitations of the service, or for any claim arising out of these terms.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 590,
+       "endOffset": 805,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Tazmin yükümlülüğü",
+       "originalQuote": "You agree to indemnify and hold Mozilla harmless for any liability or claim that results from your participation in the Services, to the extent permitted by applicable law.",
+       "explanationTr": "Bu madde, belirli durumlarda şirketin zararlarını sizin karşılamanızı öngörüyor.",
+       "potentialImpactTr": "Üçüncü kişilerin talepleri nedeniyle masraflarla karşılaşabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1107,
+       "endOffset": 1279,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Değişikliklerin kullanımla kabul sayılması",
+       "originalQuote": "We will take your continued use of the Services as acceptance of such changes.",
+       "explanationTr": "Bu madde, şirketin koşulları veya hizmeti değiştirebileceğini ve hizmeti kullanmaya devam etmenizin bu değişiklikleri kabul anlamına geleceğini belirtiyor.",
+       "potentialImpactTr": "Fark etmediğiniz değişikliklerle bağlı hale gelebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 1899,
+       "endOffset": 1977,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-005",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Hesabın sebepsiz kapatılabilmesi",
+       "originalQuote": "Mozilla can suspend or end anyone’s access to the Services at any time for any reason, including if Mozilla decides to end the Services.",
+       "explanationTr": "Bu madde, hesabınızın önceden bildirim yapılmadan veya herhangi bir sebeple kapatılabileceğini belirtiyor.",
+       "potentialImpactTr": "Hizmete ve içeriklerinize erişiminizi aniden kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 2294,
+       "endOffset": 2430,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-006",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "İçeriğin veya hesabın tek taraflı kaldırılması",
+       "originalQuote": "However, we reserve the right to terminate your use of the Service immediately if we reasonably believe you have violated the Conditions of Use, or have otherwise violated these Terms.",
+       "explanationTr": "Bu madde, şirkete içeriğinizi veya hesabınızı kendi takdirine göre kaldırma ya da kısıtlama yetkisi veriyor.",
+       "potentialImpactTr": "Bilgilerinize veya hizmete erişiminizi beklenmedik şekilde kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 2789,
+       "endOffset": 2973,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "warranty_disclaimer",
+       "concernType": "unfavorable_term",
+       "severity": "low",
+       "titleTr": "Garanti verilmemesi",
+       "originalQuote": "Mozilla provides the Services “as is.",
+       "explanationTr": "Bu madde, hizmetin \"olduğu gibi\" sunulduğunu ve garanti verilmediğini belirtiyor.",
+       "potentialImpactTr": "Hizmet beklendiği gibi çalışmazsa talepte bulunmanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 1283,
+       "endOffset": 1320,
+       "confidence": 0.5,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-007",
+       "category": "jurisdiction",
+       "concernType": "contractual",
+       "severity": "low",
+       "titleTr": "Uygulanacak hukuk",
+       "originalQuote": "California law applies to this contract, except for California’s conflict of law.",
+       "explanationTr": "Bu madde, sözleşmeye hangi ülkenin veya eyaletin hukukunun uygulanacağını belirliyor.",
+       "potentialImpactTr": "Bir uyuşmazlıkta size yabancı bir hukuk sistemine göre hak aramanız gerekebilir.",
+       "sourceSection": null,
+       "startOffset": 2990,
+       "endOffset": 3071,
+       "confidence": 0.45,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

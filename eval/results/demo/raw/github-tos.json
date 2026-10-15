@@ -1,0 +1,10 @@
+{
+ "docId": "github-tos",
+ "strategy": "review",
+ "ranAt": "2026-10-15T15:39:58.315Z",
+ "durationMs": 84,
+ "candidates": 40,
+ "candidateChars": 8873,
+ "reviewResult": null,
+ "rawModelOutputs": []
+}

@@ -1,0 +1,227 @@
+{
+ "items": [
+  {
+   "id": "B1",
+   "category": "unilateral_changes",
+   "severity": "moderate",
+   "anchors": [
+    "When you use our Services, now or in the future, you are agreeing to the latest Terms.",
+    "We may update these Terms of Service (\"Terms\") in the future."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B2",
+   "category": "termination_suspension",
+   "severity": "moderate",
+   "anchors": [
+    "If you violate any of the Terms, we may terminate your account."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B3",
+   "category": "cancellation",
+   "severity": "moderate",
+   "anchors": [
+    "An email or phone request to cancel your account is not automatically considered cancellation.",
+    "You are solely responsible for properly canceling your account."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B4",
+   "category": "refunds",
+   "severity": "low",
+   "anchors": [
+    "We do not automatically prorate unused time in the last billing cycle."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B5",
+   "category": "termination_suspension",
+   "severity": "high",
+   "anchors": [
+    "We have the right to suspend or terminate your account and refuse any and all current or future use of our Services for any reason at any time.",
+    "Termination will furthermore result in the deletion of your account or your access to your account, and the forfeiture and relinquishment of all content in your account.",
+    "We also reserve the right to refuse the use of the Services to anyone for any reason at any time."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B6",
+   "category": "unilateral_changes",
+   "severity": "moderate",
+   "anchors": [
+    "We reserve the right at any time to modify or discontinue, temporarily or permanently, any part of our Services with or without notice."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B7",
+   "category": "price_changes",
+   "severity": "moderate",
+   "anchors": [
+    "However, we may choose to change the prices for existing customers."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B8",
+   "category": "warranty_disclaimer",
+   "severity": "moderate",
+   "anchors": [
+    "Your use of the Services is at your sole risk.",
+    "We provide these Services on an “as is” and “as available” basis."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B9",
+   "category": "termination_suspension",
+   "severity": "low",
+   "anchors": [
+    "We reserve the right to temporarily disable your account if your usage significantly exceeds the average usage of other customers of the Services."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B10",
+   "category": "data_collection",
+   "severity": "moderate",
+   "anchors": [
+    "There are some edge cases where we may send your data through our network unencrypted."
+   ],
+   "note": "Security weakness disclosed"
+  },
+  {
+   "id": "B11",
+   "category": "liability_limitation",
+   "severity": "high",
+   "anchors": [
+    "You expressly understand and agree that the Company shall not be liable, in law or in equity, to you or to any third party for any direct, indirect, incidental, lost profits, special, consequential, punitive or exemplary damages",
+    "If the bet does not work out, that’s on you, not us.",
+    "These Terms do contain a limitation of our liability."
+   ],
+   "note": ""
+  },
+  {
+   "id": "B12",
+   "category": "termination_suspension",
+   "severity": "low",
+   "anchors": [
+    "we reserve the right (but not the obligation) in our sole discretion to refuse or remove any content that is available via the Service."
+   ],
+   "note": ""
+  }
+ ],
+ "ambiguous": [
+  {
+   "id": "BA1",
+   "anchors": [
+    "The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation."
+   ],
+   "note": "Standard account-security clause"
+  },
+  {
+   "id": "BA2",
+   "anchors": [
+    "You expressly understand and agree that we are not liable for any damages or losses resulting from your use of the API"
+   ],
+   "note": "API-specific liability exclusion"
+  },
+  {
+   "id": "BA3",
+   "anchors": [
+    "All of your content will be inaccessible from the Services immediately upon account cancellation.",
+    "Within 30 days, all content will be permanently deleted from active systems and logs.",
+    "We cannot recover this information once it has been permanently deleted."
+   ],
+   "note": "Deletion is privacy-friendly but data loss is possible"
+  },
+  {
+   "id": "BA4",
+   "anchors": [
+    "If you do not pay, we will freeze your account and it will be inaccessible until you make payment.",
+    "we will queue it up for auto-cancellation"
+   ],
+   "note": "Non-payment consequences"
+  },
+  {
+   "id": "BA5",
+   "anchors": [
+    "We make no guarantees that our Services will meet your specific requirements or expectations.",
+    "Not all reported bugs will get fixed and we don’t guarantee completely error-free Services."
+   ],
+   "note": "Quality disclaimer"
+  },
+  {
+   "id": "BA6",
+   "anchors": [
+    "We are not liable or accountable for any of these third-party integrations."
+   ],
+   "note": "Third-party integrations"
+  },
+  {
+   "id": "BA7",
+   "anchors": [
+    "we only preserve or share customer data if compelled by a US government authority"
+   ],
+   "note": "Law-enforcement disclosure (restrictive)"
+  },
+  {
+   "id": "BA8",
+   "anchors": [
+    "Verbal, physical, written or other abuse (including threats of abuse or retribution) of a Company employee or officer will result in immediate account termination."
+   ],
+   "note": "Conduct-based termination"
+  },
+  {
+   "id": "BA9",
+   "anchors": [
+    "you are responsible for payment of all taxes, levies, or duties"
+   ],
+   "note": "Taxes"
+  },
+  {
+   "id": "BA10",
+   "anchors": [
+    "You give us a limited license to use the content posted by you and your users in order to provide the Services to you"
+   ],
+   "note": "Limited license"
+  },
+  {
+   "id": "BA11",
+   "anchors": [
+    "You are responsible for all content posted to and activity that occurs under your account"
+   ],
+   "note": "User responsibility"
+  },
+  {
+   "id": "BA12",
+   "anchors": [
+    "We use third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Services."
+   ],
+   "note": "Subprocessors"
+  },
+  {
+   "id": "BA13",
+   "anchors": [
+    "we will charge your card immediately and your billing cycle starts on the day of upgrade"
+   ],
+   "note": "Billing on upgrade"
+  },
+  {
+   "id": "BA14",
+   "anchors": [
+    "The Company, in its sole discretion, will determine abuse or excessive usage of the API",
+    "Abuse or excessively frequent requests to the Services via the API may result in the temporary or permanent suspension of your account’s access to the API."
+   ],
+   "note": "API suspension"
+  }
+ ],
+ "docId": "basecamp-terms",
+ "annotator": "Claude (AI developer agent), 2026-10-15",
+ "methodology": "Manual review of the full text by the ContractLens developer agent (Claude, an AI model) — not by a lawyer. An 'item' is a clause a typical consumer could reasonably consider unfavourable or risky (privacy, financial, contractual, unfavourable term). 'ambiguous' lists clauses where reasonable reviewers could disagree; predictions matching them are counted separately, neither TP nor FP. Each item lists one or more verbatim anchor sentences; any one anchor overlapping a prediction's verified quote counts as a match."
+}

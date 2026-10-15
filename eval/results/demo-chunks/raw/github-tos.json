@@ -1,0 +1,353 @@
+{
+ "docId": "github-tos",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:08.331Z",
+ "durationMs": 31,
+ "chunksTotal": 9,
+ "chunksAnalyzed": [
+  "c2",
+  "c4",
+  "c5",
+  "c6",
+  "c7"
+ ],
+ "analyzedChars": 28862,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c2",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 2 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "GitHub cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 480,
+       "endOffset": 598,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "ai_training",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin yapay zekâ eğitimi için kullanılması",
+       "originalQuote": "You grant GitHub and our Affiliates the right to store, host, archive, parse, display, and make copies of Your Content as necessary to provide, develop, and improve the Service, including by training AI Features, and for the purpose of training, developing, and improving artificial intelligence and machine learning models and technologies of our Affiliates.",
+       "explanationTr": "Bu madde, verilerinizin modelleri eğitmek veya geliştirmek için kullanılabileceğini belirtiyor.",
+       "potentialImpactTr": "İçerikleriniz beklemediğiniz amaçlarla işlenebilir.",
+       "sourceSection": null,
+       "startOffset": 3965,
+       "endOffset": 4324,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c4",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 2 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-002",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "high",
+       "titleTr": "Verilerin üçüncü taraflarla paylaşılması",
+       "originalQuote": "This license does not, however, permit GitHub or its Affiliates to share your Inputs or Outputs with third-party AI model providers for their own independent model training purposes.",
+       "explanationTr": "Bu madde, verilerinizin iş ortakları, reklam verenler veya diğer üçüncü taraflarla paylaşılabileceğini belirtiyor.",
+       "potentialImpactTr": "Kişisel bilgilerinizin kimlerle paylaşıldığını kontrol etmeniz zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 5693,
+       "endOffset": 5875,
+       "confidence": 0.7,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-001",
+       "category": "ai_training",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin yapay zekâ eğitimi için kullanılması",
+       "originalQuote": "to AI Features, we may use that Input to provide, develop, train, and improve the Service, including AI Features.",
+       "explanationTr": "Bu madde, verilerinizin modelleri eğitmek veya geliştirmek için kullanılabileceğini belirtiyor.",
+       "potentialImpactTr": "İçerikleriniz beklemediğiniz amaçlarla işlenebilir.",
+       "sourceSection": null,
+       "startOffset": 0,
+       "endOffset": 113,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c5",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 2 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "high",
+       "titleTr": "Verilerin üçüncü taraflarla paylaşılması",
+       "originalQuote": "This license does not, however, permit GitHub or its Affiliates to share your Inputs or Outputs with third-party AI model providers for their own independent model training purposes.",
+       "explanationTr": "Bu madde, verilerinizin iş ortakları, reklam verenler veya diğer üçüncü taraflarla paylaşılabileceğini belirtiyor.",
+       "potentialImpactTr": "Kişisel bilgilerinizin kimlerle paylaşıldığını kontrol etmeniz zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 215,
+       "endOffset": 397,
+       "confidence": 0.7,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "content_license",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "İçerikleriniz için geniş lisans",
+       "originalQuote": "If you choose to give us any ideas, know-how, algorithms, code contributions, suggestions, enhancement requests, recommendations or any other feedback for our products or services (collectively, “Feedback”), you acknowledge and agree that GitHub will have a royalty-free, fully paid-up, worldwide, transferable, sub-licensable, irrevocable and perpetual license to implement, use, modify, commercially exploit and/or incorporate the Feedback into our products, services, and documentation.",
+       "explanationTr": "Bu madde, yüklediğiniz içerikler üzerinde şirkete süresiz veya geri alınamaz bir kullanım hakkı veriyor.",
+       "potentialImpactTr": "İçeriklerinizin kullanımını sonradan sınırlamanız zor olabilir.",
+       "sourceSection": null,
+       "startOffset": 4392,
+       "endOffset": 4881,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c6",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 4 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "refunds",
+       "concernType": "financial",
+       "severity": "moderate",
+       "titleTr": "İade yapılmaması",
+       "originalQuote": "Payment Based on Plan For monthly or yearly payment plans, the Service is billed in advance on a monthly or yearly basis respectively and is non-refundable.",
+       "explanationTr": "Bu madde, ödemelerin iade edilmeyeceğini belirtiyor.",
+       "potentialImpactTr": "Hizmeti kullanmasanız bile ödediğiniz tutarı geri alamayabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 749,
+       "endOffset": 905,
+       "confidence": 0.75,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "data_retention",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Verilerin tamamen silinmemesi",
+       "originalQuote": "We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements, but barring legal requirements, we will delete your full profile and the Content of your repositories within 90 days of cancellation or termination (though some information may remain in encrypted backups).",
+       "explanationTr": "Bu madde, silme talebinden veya hesap kapatıldıktan sonra da bazı verilerin saklanabileceğini belirtiyor.",
+       "potentialImpactTr": "Silindiğini düşündüğünüz bilgiler bir süre daha şirkette kalabilir.",
+       "sourceSection": null,
+       "startOffset": 3739,
+       "endOffset": 4082,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Hesabın sebepsiz kapatılabilmesi",
+       "originalQuote": "GitHub has the right to suspend or terminate your access to all or any part of the Website at any time, with or without cause, with or without notice, effective immediately.",
+       "explanationTr": "Bu madde, hesabınızın önceden bildirim yapılmadan veya herhangi bir sebeple kapatılabileceğini belirtiyor.",
+       "potentialImpactTr": "Hizmete ve içeriklerinize erişiminizi aniden kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 4570,
+       "endOffset": 4743,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "termination_suspension",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "İçeriğin veya hesabın tek taraflı kaldırılması",
+       "originalQuote": "GitHub reserves the right to refuse service to anyone for any reason at any time.",
+       "explanationTr": "Bu madde, şirkete içeriğinizi veya hesabınızı kendi takdirine göre kaldırma ya da kısıtlama yetkisi veriyor.",
+       "potentialImpactTr": "Bilgilerinize veya hizmete erişiminizi beklenmedik şekilde kaybedebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 4744,
+       "endOffset": 4825,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   },
+   {
+    "chunkId": "c7",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "terms_of_service",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 6 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-002",
+       "category": "liability_limitation",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Sorumluluğun sınırlandırılması",
+       "originalQuote": "Short version: We will not be liable for damages or losses arising from your use or inability to use the service or otherwise arising under this agreement.",
+       "explanationTr": "Bu madde, şirketin zararlardan sorumluluğunu sınırlıyor veya hariç tutuyor.",
+       "potentialImpactTr": "Bir zarar yaşarsanız tazminat almanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 2088,
+       "endOffset": 2243,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Haklardan feragat veya ibra",
+       "originalQuote": "If you have a dispute with one or more Users, you agree to release GitHub from any and all claims, demands and damages (actual and consequential) of every kind and nature, known and unknown, arising out of or in any way connected with such disputes.",
+       "explanationTr": "Bu madde, bazı yasal haklarınızdan vazgeçmenizi veya şirketi taleplerden muaf tutmanızı öngörüyor.",
+       "potentialImpactTr": "Bir sorun yaşadığınızda hak talep etme imkânınız daralabilir.",
+       "sourceSection": null,
+       "startOffset": 3585,
+       "endOffset": 3834,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "indemnification",
+       "concernType": "unfavorable_term",
+       "severity": "moderate",
+       "titleTr": "Tazmin yükümlülüğü",
+       "originalQuote": "You agree to indemnify us, defend us, and hold us harmless from and against any and all claims, liabilities, and expenses, including attorneys’ fees, arising out of your use of the Website and the Service, including but not limited to your violation of this Agreement, provided that GitHub (1) promptly gives you written notice of the claim, demand, suit or proceeding; (2) gives you sole control of the defense and settlement of the claim, demand, suit or proceeding (provided that you may not settle any claim, demand, suit or proceeding unless the settlement unconditionally releases GitHub of all",
+       "explanationTr": "Bu madde, belirli durumlarda şirketin zararlarını sizin karşılamanızı öngörüyor.",
+       "potentialImpactTr": "Üçüncü kişilerin talepleri nedeniyle masraflarla karşılaşabilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 3836,
+       "endOffset": 4436,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-005",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Koşulların tek taraflı değiştirilmesi",
+       "originalQuote": "So while we may modify this agreement at any time, we will notify users of any material changes and give you time to adjust to them.",
+       "explanationTr": "Bu madde, şirketin koşulları tek taraflı olarak değiştirebileceğini belirtiyor.",
+       "potentialImpactTr": "Kabul ettiğiniz koşullar, haberiniz olmadan aleyhinize değişebilir.",
+       "sourceSection": null,
+       "startOffset": 4723,
+       "endOffset": 4855,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-006",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Değişikliklerin kullanımla kabul sayılması",
+       "originalQuote": "We reserve the right, at our sole discretion, to amend these Terms of Service at any time and will update these Terms of Service in the event of any such amendments.",
+       "explanationTr": "Bu madde, şirketin koşulları veya hizmeti değiştirebileceğini ve hizmeti kullanmaya devam etmenizin bu değişiklikleri kabul anlamına geleceğini belirtiyor.",
+       "potentialImpactTr": "Fark etmediğiniz değişikliklerle bağlı hale gelebilirsiniz.",
+       "sourceSection": null,
+       "startOffset": 4857,
+       "endOffset": 5022,
+       "confidence": 0.55,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-001",
+       "category": "warranty_disclaimer",
+       "concernType": "unfavorable_term",
+       "severity": "low",
+       "titleTr": "Garanti verilmemesi",
+       "originalQuote": "Short version: We provide our service as is, and we make no promises or guarantees about this service.",
+       "explanationTr": "Bu madde, hizmetin \"olduğu gibi\" sunulduğunu ve garanti verilmediğini belirtiyor.",
+       "potentialImpactTr": "Hizmet beklendiği gibi çalışmazsa talepte bulunmanız zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 919,
+       "endOffset": 1021,
+       "confidence": 0.5,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

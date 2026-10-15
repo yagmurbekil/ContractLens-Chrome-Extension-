@@ -1,0 +1,70 @@
+{
+ "items": [
+  {
+   "id": "C1",
+   "category": "data_retention",
+   "severity": "moderate",
+   "anchors": [
+    "We’ll permanently delete the content in your account from our servers 30 days after cancellation, and from our backups within 60 days.",
+    "Content can’t be recovered once it has been permanently deleted.",
+    "you won’t be able to access your account once you cancel, so make sure you download everything you want to keep beforehand"
+   ],
+   "note": "Data loss after cancellation"
+  },
+  {
+   "id": "C2",
+   "category": "refunds",
+   "severity": "low",
+   "anchors": [
+    "We don’t automatically prorate any unused time you may have left"
+   ],
+   "note": ""
+  },
+  {
+   "id": "C3",
+   "category": "termination_suspension",
+   "severity": "moderate",
+   "anchors": [
+    "We also retain the right to suspend or terminate accounts for any reason at any time"
+   ],
+   "note": ""
+  },
+  {
+   "id": "C4",
+   "category": "termination_suspension",
+   "severity": "low",
+   "anchors": [
+    "We may cancel accounts if they have been inactive for an extended period:",
+    "For free accounts: after 365 days of inactivity",
+    "For frozen accounts: 180 days after being frozen due to billing failures"
+   ],
+   "note": ""
+  }
+ ],
+ "ambiguous": [
+  {
+   "id": "CA1",
+   "anchors": [
+    "we will cancel your account without notice if we have evidence that you are using our products to engage in abusive behavior"
+   ],
+   "note": "Abuse-based termination"
+  },
+  {
+   "id": "CA2",
+   "anchors": [
+    "we cannot cancel an account at the request of anyone else"
+   ],
+   "note": "Owner-only cancellation"
+  },
+  {
+   "id": "CA3",
+   "anchors": [
+    "Retrieving content for a single account from a backup isn’t possible"
+   ],
+   "note": "Backup limitation"
+  }
+ ],
+ "docId": "basecamp-cancellation",
+ "annotator": "Claude (AI developer agent), 2026-10-15",
+ "methodology": "Manual review of the full text by the ContractLens developer agent (Claude, an AI model) — not by a lawyer. An 'item' is a clause a typical consumer could reasonably consider unfavourable or risky (privacy, financial, contractual, unfavourable term). 'ambiguous' lists clauses where reasonable reviewers could disagree; predictions matching them are counted separately, neither TP nor FP. Each item lists one or more verbatim anchor sentences; any one anchor overlapping a prediction's verified quote counts as a match."
+}

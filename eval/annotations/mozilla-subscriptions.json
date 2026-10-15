@@ -1,0 +1,165 @@
+{
+ "items": [
+  {
+   "id": "M1",
+   "category": "auto_renewal",
+   "severity": "high",
+   "anchors": [
+    "Your plan renews automatically at the end of each term, and you authorize us to charge the subscription fees each term.",
+    "We offer the Services as automatically renewing subscription services."
+   ],
+   "note": ""
+  },
+  {
+   "id": "M2",
+   "category": "termination_suspension",
+   "severity": "moderate",
+   "anchors": [
+    "If you stop paying, we will immediately suspend your account, and we may delete it after 2 months of not paying."
+   ],
+   "note": ""
+  },
+  {
+   "id": "M3",
+   "category": "data_sharing",
+   "severity": "moderate",
+   "anchors": [
+    "By giving us information, you consent to this kind of transfer of your information.",
+    "your information might be processed on servers located outside of the country where you live"
+   ],
+   "note": "International transfer by consent"
+  },
+  {
+   "id": "M4",
+   "category": "liability_limitation",
+   "severity": "high",
+   "anchors": [
+    "Any liability for Mozilla under this agreement is limited to $500.",
+    "Mozilla will not be liable in any way for any inability to use the Services",
+    "Mozilla specifically disclaims the following: Indirect, special, incidental, consequential, or exemplary damages"
+   ],
+   "note": ""
+  },
+  {
+   "id": "M5",
+   "category": "indemnification",
+   "severity": "moderate",
+   "anchors": [
+    "You agree to indemnify and hold Mozilla harmless for any liability or claim that results from your participation in the Services"
+   ],
+   "note": ""
+  },
+  {
+   "id": "M6",
+   "category": "warranty_disclaimer",
+   "severity": "low",
+   "anchors": [
+    "Mozilla provides the Services “as is.”",
+    "Mozilla specifically disclaims any legal guarantees or warranties"
+   ],
+   "note": ""
+  },
+  {
+   "id": "M7",
+   "category": "unilateral_changes",
+   "severity": "moderate",
+   "anchors": [
+    "We will take your continued use of the Services as acceptance of such changes.",
+    "Every once in a while, Mozilla may decide to update these Terms."
+   ],
+   "note": ""
+  },
+  {
+   "id": "M8",
+   "category": "termination_suspension",
+   "severity": "moderate",
+   "anchors": [
+    "Mozilla can suspend or end anyone’s access to the Services at any time for any reason, including if Mozilla decides to end the Services.",
+    "we reserve the right to terminate your use of the Service immediately"
+   ],
+   "note": ""
+  },
+  {
+   "id": "M9",
+   "category": "content_license",
+   "severity": "low",
+   "anchors": [
+    "you give Mozilla permission to use them for free and without any additional obligations"
+   ],
+   "note": ""
+  },
+  {
+   "id": "M10",
+   "category": "jurisdiction",
+   "severity": "low",
+   "anchors": [
+    "California law applies to this contract, except for California’s conflict of law."
+   ],
+   "note": ""
+  }
+ ],
+ "ambiguous": [
+  {
+   "id": "MA1",
+   "anchors": [
+    "This offer only applies the first time you subscribe."
+   ],
+   "note": "Refund window is limited but consumer-friendly overall"
+  },
+  {
+   "id": "MA2",
+   "anchors": [
+    "You must direct any billing and refund inquiries for such purchases to Apple or Google, as appropriate."
+   ],
+   "note": "App-store refunds handled by third party"
+  },
+  {
+   "id": "MA3",
+   "anchors": [
+    "You give Mozilla and Mullvad all rights necessary to operate the Service, including processing the data you upload to or access through Mozilla VPN.",
+    "You give Mozilla and Twilio all rights necessary to operate Firefox Relay",
+    "You give Mozilla and HIBP all rights necessary to operate Mozilla Monitor"
+   ],
+   "note": "Operational processing grants"
+  },
+  {
+   "id": "MA4",
+   "anchors": [
+    "Any further text messages will be deleted and any further phone calls will not go through.",
+    "Larger emails are deleted."
+   ],
+   "note": "Service limits with data loss"
+  },
+  {
+   "id": "MA5",
+   "anchors": [
+    "there is no guarantee that either will have complete or timely records of all public data breaches"
+   ],
+   "note": "Service accuracy disclaimer"
+  },
+  {
+   "id": "MA6",
+   "anchors": [
+    "it may take up to 2 months starting from receipt by us of complete information"
+   ],
+   "note": "Processing delay"
+  },
+  {
+   "id": "MA7",
+   "anchors": [
+    "You are solely responsible for the Content you transmit and the consequences."
+   ],
+   "note": "Standard user responsibility"
+  },
+  {
+   "id": "MA8",
+   "anchors": [
+    "We store a log of the phone numbers you’ve contacted through Relay"
+   ],
+   "note": "Call log retention"
+  }
+ ],
+ "docId": "mozilla-subscriptions",
+ "annotator": "Claude (AI developer agent), 2026-10-15",
+ "methodology": "Manual review of the full text by the ContractLens developer agent (Claude, an AI model) — not by a lawyer. An 'item' is a clause a typical consumer could reasonably consider unfavourable or risky (privacy, financial, contractual, unfavourable term). 'ambiguous' lists clauses where reasonable reviewers could disagree; predictions matching them are counted separately, neither TP nor FP. Each item lists one or more verbatim anchor sentences; any one anchor overlapping a prediction's verified quote counts as a match."
+}

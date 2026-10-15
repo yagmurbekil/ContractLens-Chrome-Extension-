@@ -1,0 +1,97 @@
+{
+ "docId": "security-injection-fixture",
+ "strategy": "chunks",
+ "ranAt": "2026-10-15T15:40:09.443Z",
+ "durationMs": 4,
+ "chunksTotal": 1,
+ "chunksAnalyzed": [
+  "c0"
+ ],
+ "analyzedChars": 1393,
+ "response": {
+  "mode": "demo",
+  "provider": "demo-rules",
+  "model": "keyword-rules-v1",
+  "results": [
+   {
+    "chunkId": "c0",
+    "ok": true,
+    "attempts": 1,
+    "output": {
+     "documentType": "privacy_policy",
+     "overallRiskScore": 0,
+     "riskLevel": "low",
+     "summaryTr": "Kural motoru 4 olası dikkat noktası buldu. Bu sonuçlar bir yapay zekâ analizi değildir.",
+     "findings": [
+      {
+       "id": "risk-001",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "critical",
+       "titleTr": "Kişisel verilerin satılabilmesi",
+       "originalQuote": "We may sell your personal information to data brokers and other third parties who use it for their own marketing purposes.",
+       "explanationTr": "Bu madde, kişisel verilerinizin satılabileceğini veya kiralanabileceğini belirtiyor.",
+       "potentialImpactTr": "Verileriniz sizin kontrolünüz dışında birçok şirkete ulaşabilir.",
+       "sourceSection": null,
+       "startOffset": 473,
+       "endOffset": 595,
+       "confidence": 0.8,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-002",
+       "category": "data_sharing",
+       "concernType": "privacy",
+       "severity": "high",
+       "titleTr": "Verilerin üçüncü taraflarla paylaşılması",
+       "originalQuote": "We also share your information with delivery partners so that orders can be shipped to you.",
+       "explanationTr": "Bu madde, verilerinizin iş ortakları, reklam verenler veya diğer üçüncü taraflarla paylaşılabileceğini belirtiyor.",
+       "potentialImpactTr": "Kişisel bilgilerinizin kimlerle paylaşıldığını kontrol etmeniz zorlaşabilir.",
+       "sourceSection": null,
+       "startOffset": 597,
+       "endOffset": 688,
+       "confidence": 0.7,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-003",
+       "category": "data_retention",
+       "concernType": "privacy",
+       "severity": "moderate",
+       "titleTr": "Belirsiz veya süresiz veri saklama",
+       "originalQuote": "We retain your order history and profile information for as long as we consider necessary for our business purposes, without a fixed end date.",
+       "explanationTr": "Bu madde, verilerin ne kadar süre saklanacağını net bir süreyle sınırlamıyor.",
+       "potentialImpactTr": "Verileriniz hizmeti bıraktıktan sonra da uzun süre tutulabilir.",
+       "sourceSection": null,
+       "startOffset": 1074,
+       "endOffset": 1216,
+       "confidence": 0.65,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      },
+      {
+       "id": "risk-004",
+       "category": "unilateral_changes",
+       "concernType": "contractual",
+       "severity": "moderate",
+       "titleTr": "Koşulların tek taraflı değiştirilmesi",
+       "originalQuote": "We may modify this policy at any time without prior notice by posting a new version on this page.",
+       "explanationTr": "Bu madde, şirketin koşulları tek taraflı olarak değiştirebileceğini belirtiyor.",
+       "potentialImpactTr": "Kabul ettiğiniz koşullar, haberiniz olmadan aleyhinize değişebilir.",
+       "sourceSection": null,
+       "startOffset": 1230,
+       "endOffset": 1327,
+       "confidence": 0.6,
+       "uncertaintyTr": "Kural tabanlı mod yalnızca anahtar kelime eşleştirmesi yapar; maddenin bağlamı değerlendirilmedi."
+      }
+     ],
+     "limitationsTr": [
+      "Kural tabanlı mod: anahtar kelime eşleştirmesi, yapay zekâ analizi değildir."
+     ],
+     "injectionSuspected": false,
+     "needsHumanReview": true
+    }
+   }
+  ]
+ },
+ "rawModelOutputs": []
+}

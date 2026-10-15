@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.log
+cypress/screenshots/
+cypress/downloads/
+coverage/
+eval/results/raw/*.tmp
+dist-harness/
+dist-e2e/
+dist-e2e-mock-llm.log
+mock-llm.log
+cypress/videos/

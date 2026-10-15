@@ -1,0 +1,332 @@
+{
+ "items": [
+  {
+   "id": "Z1",
+   "category": "arbitration_class_waiver",
+   "severity": "high",
+   "anchors": [
+    "YOU AGREE THAT DISPUTES BETWEEN YOU AND US WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION",
+    "it shall be finally settled by binding arbitration in San Francisco County, California",
+    "YOU AND ZULIP WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR JURY.",
+    "ALL CLAIMS AND DISPUTES WITHIN THE SCOPE OF THIS ARBITRATION AGREEMENT MUST BE ARBITRATED OR LITIGATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS BASIS.",
+    "it requires you to arbitrate certain disputes and claims with Zulip and limits the manner in which you can seek relief from Zulip",
+    "a class action waiver and resolution of disputes by arbitration instead of in court"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z2",
+   "category": "unilateral_changes",
+   "severity": "moderate",
+   "anchors": [
+    "We reserve the right to change the Terms at any time",
+    "If you use the Services in any way after a change to the Terms is effective, that means you agree to all of the changes."
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z3",
+   "category": "indemnification",
+   "severity": "moderate",
+   "anchors": [
+    "You agree to indemnify and hold Zulip harmless from and against any and all claims, liabilities, damages (actual and consequential), losses and expenses (including attorneys’ fees) arising from or in any way related to any breach of the foregoing on your part."
+   ],
+   "note": "SMS consent indemnity"
+  },
+  {
+   "id": "Z4",
+   "category": "indemnification",
+   "severity": "moderate",
+   "anchors": [
+    "you agree to indemnify and hold the Zulip Parties harmless from and against any and all claims, liabilities, damages (actual and consequential), losses and expenses (including attorneys’ fees) arising from or in any way related to any claims relating to (a) your use of the Services"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z5",
+   "category": "content_license",
+   "severity": "moderate",
+   "anchors": [
+    "This license is non-exclusive, worldwide, perpetual, royalty-free, fully paid, sublicensable and transferable to use, edit, modify, truncate, aggregate, reproduce, distribute, prepare derivative works of, display, perform, and otherwise fully exploit the User Submissions"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z6",
+   "category": "data_retention",
+   "severity": "moderate",
+   "anchors": [
+    "You understand and agree that it may not be possible to completely delete that content from Zulip's records",
+    "User Submissions may still be viewable in association with a “deleted user” after you delete your Zulip account."
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z7",
+   "category": "content_license",
+   "severity": "low",
+   "anchors": [
+    "by sending any feedback, you grant us an irrevocable, non-exclusive, royalty-free, perpetual, worldwide license"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z8",
+   "category": "indemnification",
+   "severity": "moderate",
+   "anchors": [
+    "you release Zulip, its directors, officers, employees, agents, and successors from claims, demands, and damages of every kind or nature",
+    "You shall and hereby do waive California Civil Code Section 1542 or any similar law of any jurisdiction",
+    "you hereby release us from all liability for you having acquired or not acquired Content through the Services"
+   ],
+   "note": "Release / waiver"
+  },
+  {
+   "id": "Z9",
+   "category": "termination_suspension",
+   "severity": "low",
+   "anchors": [
+    "We reserve the right to remove any Content from the Services at any time, for any reason"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z10",
+   "category": "unilateral_changes",
+   "severity": "low",
+   "anchors": [
+    "We may suspend or discontinue any part of the Services, or we may introduce new features or impose limits on certain features or restrict access to parts or all of the Services."
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z11",
+   "category": "auto_renewal",
+   "severity": "high",
+   "anchors": [
+    "any Paid Services you have signed up for will be automatically extended for successive renewal periods of the same duration as the subscription term originally selected, at the then-current non-promotional rate"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z12",
+   "category": "auto_renewal",
+   "severity": "moderate",
+   "anchors": [
+    "WE MAY SUBMIT PERIODIC CHARGES (E.G., MONTHLY) WITHOUT FURTHER AUTHORIZATION FROM YOU",
+    "you accept responsibility for all recurring charges prior to cancellation",
+    "Your non-termination or continued use of a Paid Service reaffirms that we are authorized to charge your Payment Method"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z13",
+   "category": "refunds",
+   "severity": "moderate",
+   "anchors": [
+    "However, you will not be eligible for a prorated refund of any portion of the subscription fee paid for the then-current subscription period.",
+    "ZULIP WILL NOT REFUND ANY FEES THAT YOU HAVE ALREADY PAID",
+    "PAID SERVICES CANNOT BE TERMINATED BEFORE THE END OF THE PERIOD FOR WHICH YOU HAVE ALREADY PAID"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z14",
+   "category": "cancellation",
+   "severity": "moderate",
+   "anchors": [
+    "You must stop using a Paid Service before the end of the trial period in order to avoid being charged for that Paid Service."
+   ],
+   "note": "Trial converts to paid"
+  },
+  {
+   "id": "Z15",
+   "category": "termination_suspension",
+   "severity": "high",
+   "anchors": [
+    "Zulip is also free to terminate (or suspend access to) your use of the Services or your account for any reason at our sole discretion",
+    "Account termination may result in destruction of any Content associated with your account",
+    "Zulip has the sole right to decide whether you are in violation of any of the restrictions set forth in these Terms."
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z16",
+   "category": "warranty_disclaimer",
+   "severity": "moderate",
+   "anchors": [
+    "THE SERVICES AND CONTENT ARE PROVIDED BY ZULIP (AND ITS LICENSORS AND SUPPLIERS) ON AN “AS-IS” BASIS, WITHOUT WARRANTIES OF ANY KIND",
+    "make no representations or warranties concerning the Services"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z17",
+   "category": "liability_limitation",
+   "severity": "high",
+   "anchors": [
+    "SHALL ANY OF THE ZULIP PARTIES BE LIABLE TO YOU OR TO ANY OTHER PERSON FOR (A) ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY KIND",
+    "IN EXCESS OF THE GREATER OF (I) ONE-HUNDRED ($100) DOLLARS"
+   ],
+   "note": ""
+  },
+  {
+   "id": "Z18",
+   "category": "other",
+   "severity": "low",
+   "anchors": [
+    "We may transfer, assign, or delegate these Terms and our rights and obligations without consent."
+   ],
+   "note": "Assignment"
+  }
+ ],
+ "ambiguous": [
+  {
+   "id": "ZA1",
+   "anchors": [
+    "YOU AGREE THAT WE MAY CONTINUE CHARGING YOU FOR ANY USE OF PAID SERVICES UNDER YOUR BILLING ACCOUNT"
+   ],
+   "note": "Continued charging when info missing (overlaps Z12)"
+  },
+  {
+   "id": "ZA2",
+   "anchors": [
+    "you access all such information and Content at your own risk, and we aren’t liable for any errors or omissions in that information or Content"
+   ],
+   "note": "User content risk"
+  },
+  {
+   "id": "ZA3",
+   "anchors": [
+    "By using the Services, you release and hold us harmless from any and all liability arising from your use of any third-party website or service.",
+    "You agree that Zulip shall not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings."
+   ],
+   "note": "Third-party release"
+  },
+  {
+   "id": "ZA4",
+   "anchors": [
+    "which may include Zulip using automated dialing technology to text you at the wireless number you provided"
+   ],
+   "note": "Automated texts"
+  },
+  {
+   "id": "ZA5",
+   "anchors": [
+    "any judicial proceeding (other than small claims actions) will be brought in the state or federal courts located in, respectively, San Francisco County, California",
+    "These Terms are governed by and will be construed under the Federal Arbitration Act, applicable federal law, and the laws of the State of California"
+   ],
+   "note": "Venue / choice of law"
+  },
+  {
+   "id": "ZA6",
+   "anchors": [
+    "Zulip's officers, directors, employees and independent contractors (“Personnel”) are third-party beneficiaries of these Terms"
+   ],
+   "note": "Third-party beneficiaries"
+  },
+  {
+   "id": "ZA7",
+   "anchors": [
+    "We reserve the right to correct any errors or mistakes that the Payment Processor makes even if it has already requested or received payment."
+   ],
+   "note": "Billing corrections"
+  },
+  {
+   "id": "ZA8",
+   "anchors": [
+    "we can’t promise that we can recover or restore anything"
+   ],
+   "note": "Deleted account recovery"
+  },
+  {
+   "id": "ZA9",
+   "anchors": [
+    "We will try to provide advance notice to you prior to our terminating your account",
+    "but we may not do so if we determine it would be impractical"
+   ],
+   "note": "Notice before termination"
+  },
+  {
+   "id": "ZA10",
+   "anchors": [
+    "We are not responsible for any error by, or other acts or omissions of, the Payment Processor."
+   ],
+   "note": "Payment processor"
+  },
+  {
+   "id": "ZA11",
+   "anchors": [
+    "You may not transfer your account to anyone else without our prior written permission."
+   ],
+   "note": "Account transfer"
+  },
+  {
+   "id": "ZA12",
+   "anchors": [
+    "By using the Services through a Third Party Account, you permit us to access certain information from such account for use by the Services."
+   ],
+   "note": "Third-party login data"
+  },
+  {
+   "id": "ZA13",
+   "anchors": [
+    "remove and discontinue service to repeat offenders",
+    "terminate such content provider's access to the Services if they are a repeat offender"
+   ],
+   "note": "DMCA"
+  },
+  {
+   "id": "ZA14",
+   "anchors": [
+    "Use, reproduction, modification, distribution or storage of any Content for any purpose other than using the Services is expressly prohibited without prior written permission from us."
+   ],
+   "note": "Use restrictions"
+  },
+  {
+   "id": "ZA15",
+   "anchors": [
+    "You will be responsible for paying, withholding, filing, and reporting all taxes"
+   ],
+   "note": "Taxes"
+  },
+  {
+   "id": "ZA16",
+   "anchors": [
+    "Note that if you elect to receive text messages through the Services, data and message rates may apply."
+   ],
+   "note": "Carrier charges"
+  },
+  {
+   "id": "ZA17",
+   "anchors": [
+    "we will notify you before any Services you are then using begin carrying a fee"
+   ],
+   "note": "Fee changes (with notice)"
+  },
+  {
+   "id": "ZA18",
+   "anchors": [
+    "you agree to pay all amounts due on your Billing Account upon demand"
+   ],
+   "note": "Payment on demand"
+  },
+  {
+   "id": "ZA19",
+   "anchors": [
+    "the Zulip Parties will not be responsible or liable for the accuracy, copyright compliance, legality, or decency of material contained in or accessed through the Services"
+   ],
+   "note": "Content disclaimer (part of Z16)"
+  },
+  {
+   "id": "ZA20",
+   "anchors": [
+    "We can’t guarantee the identity of any users with whom you interact"
+   ],
+   "note": "Identity disclaimer"
+  }
+ ],
+ "docId": "zulip-tos",
+ "annotator": "Claude (AI developer agent), 2026-10-15",
+ "methodology": "Manual review of the full text by the ContractLens developer agent (Claude, an AI model) — not by a lawyer. An 'item' is a clause a typical consumer could reasonably consider unfavourable or risky (privacy, financial, contractual, unfavourable term). 'ambiguous' lists clauses where reasonable reviewers could disagree; predictions matching them are counted separately, neither TP nor FP. Each item lists one or more verbatim anchor sentences; any one anchor overlapping a prediction's verified quote counts as a match."
+}

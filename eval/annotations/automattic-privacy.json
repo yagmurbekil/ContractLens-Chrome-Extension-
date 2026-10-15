@@ -1,0 +1,295 @@
+{
+ "items": [
+  {
+   "id": "A1",
+   "category": "data_collection",
+   "severity": "moderate",
+   "anchors": [
+    "Third-party services may also give us information, like mailing addresses for individuals who are not yet our users (but we hope will be!).",
+    "We may also get information about you from other sources."
+   ],
+   "note": ""
+  },
+  {
+   "id": "A2",
+   "category": "tracking_cookies",
+   "severity": "moderate",
+   "anchors": [
+    "Automattic uses cookies and other technologies like pixel tags to help us identify and track visitors, usage, and access preferences for our Services, as well as track and understand email campaign effectiveness and to deliver targeted ads."
+   ],
+   "note": ""
+  },
+  {
+   "id": "A3",
+   "category": "data_sharing",
+   "severity": "high",
+   "anchors": [
+    "we and our users do use cookies to share certain device identifiers and information about your browsing activities with our advertising partners",
+    "These disclosures may be considered a \"sale\" or \"share\" of information under some US state privacy laws.",
+    "To the extent that we share your information with certain advertising, marketing, or analytics vendors, this can be considered a \"sale\" or \"share\" in certain U.S. States"
+   ],
+   "note": ""
+  },
+  {
+   "id": "A4",
+   "category": "data_sharing",
+   "severity": "moderate",
+   "anchors": [
+    "share a hashed version of your email address to facilitate customized ad campaigns on other platforms"
+   ],
+   "note": ""
+  },
+  {
+   "id": "A5",
+   "category": "data_sharing",
+   "severity": "moderate",
+   "anchors": [
+    "We may share information about you with third-party vendors who need the information in order to provide their services to us, or to provide their services to you or your site.",
+    "those that assist us with our marketing efforts"
+   ],
+   "note": ""
+  },
+  {
+   "id": "A6",
+   "category": "data_sharing",
+   "severity": "moderate",
+   "anchors": [
+    "user information would likely be one of the assets that is transferred or acquired by a third party"
+   ],
+   "note": "Business transfers"
+  },
+  {
+   "id": "A7",
+   "category": "data_sharing",
+   "severity": "moderate",
+   "anchors": [
+    "we reserve the right to publish that request in order to clarify or respond to your request, or to help us support other users."
+   ],
+   "note": "Published support requests"
+  },
+  {
+   "id": "A8",
+   "category": "data_sharing",
+   "severity": "moderate",
+   "anchors": [
+    "We also provide a \"Firehose\" stream of public data (like posts and comments) from some sites that use our Services to provide that data to Firehose subscribers",
+    "Public information may also be indexed by search engines or used by third parties."
+   ],
+   "note": ""
+  },
+  {
+   "id": "A9",
+   "category": "data_sharing",
+   "severity": "low",
+   "anchors": [
+    "your IP address and the email address associated with your WordPress.com account may be shared with the administrator(s) of the site where you left the comment",
+    "if you follow/subscribe to another WordPress.com site we will share your email address with the site owner"
+   ],
+   "note": ""
+  },
+  {
+   "id": "A10",
+   "category": "data_retention",
+   "severity": "moderate",
+   "anchors": [
+    "After the thirty days are up, the deleted content may remain on our backups and caches until purged.",
+    "we may continue to retain your information after closing your account",
+    "or reasonably needed for our legitimate business interests"
+   ],
+   "note": ""
+  },
+  {
+   "id": "A11",
+   "category": "tracking_cookies",
+   "severity": "low",
+   "anchors": [
+    "At this time, Automattic does not respond to \"do not track\" signals across all of our Services."
+   ],
+   "note": ""
+  },
+  {
+   "id": "A12",
+   "category": "data_sharing",
+   "severity": "low",
+   "anchors": [
+    "the information about you that we process when you use the Services in the EU may be used, stored, and/or accessed by individuals operating outside the European Economic Area (EEA)"
+   ],
+   "note": "International transfer"
+  },
+  {
+   "id": "A13",
+   "category": "unilateral_changes",
+   "severity": "moderate",
+   "anchors": [
+    "Your further use of the Services after a change to our Privacy Policy will be subject to the updated policy.",
+    "Automattic encourages visitors to frequently check this page for any changes to its Privacy Policy."
+   ],
+   "note": ""
+  },
+  {
+   "id": "A14",
+   "category": "tracking_cookies",
+   "severity": "moderate",
+   "anchors": [
+    "These ad networks and analytics providers may set tracking technologies (like cookies) to collect information about your use of our Services and across other websites and online services.",
+    "These technologies allow these third parties to recognize your device to compile information about you or others who use your device."
+   ],
+   "note": ""
+  }
+ ],
+ "ambiguous": [
+  {
+   "id": "AA1",
+   "anchors": [
+    "Inferences we make (such as likelihood of retention or attrition)."
+   ],
+   "note": "Inferences"
+  },
+  {
+   "id": "AA2",
+   "anchors": [
+    "We may also collect information about your precise location via our mobile apps"
+   ],
+   "note": "Location with permission"
+  },
+  {
+   "id": "AA3",
+   "anchors": [
+    "you may provide us with credentials for your self-hosted website (like SSH, FTP, and SFTP username and password)"
+   ],
+   "note": "Credentials"
+  },
+  {
+   "id": "AA4",
+   "anchors": [
+    "we store a copy of our communications (including any call recordings as permitted by applicable law)"
+   ],
+   "note": "Call recordings"
+  },
+  {
+   "id": "AA5",
+   "anchors": [
+    "calling you to share offers and promotions that we think will be of interest to you"
+   ],
+   "note": "Marketing calls"
+  },
+  {
+   "id": "AA6",
+   "anchors": [
+    "We may also collect additional information about you during the process, like background and credit checks"
+   ],
+   "note": "Job applicants"
+  },
+  {
+   "id": "AA7",
+   "anchors": [
+    "Our opt-out is managed through cookies, so if you delete cookies"
+   ],
+   "note": "Fragile opt-out"
+  },
+  {
+   "id": "AA8",
+   "anchors": [
+    "We may disclose information about you in response to a subpoena, court order, or other governmental request.",
+    "We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of Automattic, third parties, or the public at large."
+   ],
+   "note": "Legal disclosure"
+  },
+  {
+   "id": "AA9",
+   "anchors": [
+    "We may disclose information about you to our subsidiaries and independent contractors"
+   ],
+   "note": "Subsidiaries"
+  },
+  {
+   "id": "AA10",
+   "anchors": [
+    "we collect information about the actions that site administrators and users perform on a site",
+    "Our WooCommerce Usage Tracker also tracks information like your email address"
+   ],
+   "note": "Usage tracking"
+  },
+  {
+   "id": "AA11",
+   "anchors": [
+    "We collect some information about your interactions with other users' sites while you are logged in to your account with us"
+   ],
+   "note": "Cross-site interactions"
+  },
+  {
+   "id": "AA12",
+   "anchors": [
+    "Please note this Privacy Policy only covers the collection of information by Automattic and does not cover the collection of information by any third-party advertisers or analytics providers."
+   ],
+   "note": "Third-party collection not covered"
+  },
+  {
+   "id": "AA13",
+   "anchors": [
+    "your data will be handled in accordance with the third party's privacy policy and practices"
+   ],
+   "note": "Third-party services"
+  },
+  {
+   "id": "AA14",
+   "anchors": [
+    "In some circumstances we may deny your request to exercise one of these rights."
+   ],
+   "note": "Rights denial"
+  },
+  {
+   "id": "AA15",
+   "anchors": [
+    "We use this information for marketing purposes like postcards and other mailers advertising our Services."
+   ],
+   "note": "Part of A1"
+  },
+  {
+   "id": "AA16",
+   "anchors": [
+    "To place and manage ads in our advertising program.",
+    "personalize your experience by serving you relevant notifications and advertisements"
+   ],
+   "note": "Ad purposes"
+  },
+  {
+   "id": "AA17",
+   "anchors": [
+    "We may access information stored on your mobile device via our mobile apps."
+   ],
+   "note": "Device storage access"
+  },
+  {
+   "id": "AA18",
+   "anchors": [
+    "your information relating to your domain registration may be available in the WHOIS database"
+   ],
+   "note": "WHOIS"
+  },
+  {
+   "id": "AA19",
+   "anchors": [
+    "we'll receive information from that service (e.g., your username, basic profile information, friends list)"
+   ],
+   "note": "Social login data"
+  },
+  {
+   "id": "AA20",
+   "anchors": [
+    "we keep web server logs that record information about a visitor"
+   ],
+   "note": "Log retention 30 days"
+  },
+  {
+   "id": "AA21",
+   "anchors": [
+    "Your Gravatar and public profile information may also display with your comments"
+   ],
+   "note": "Gravatar"
+  }
+ ],
+ "docId": "automattic-privacy",
+ "annotator": "Claude (AI developer agent), 2026-10-15",
+ "methodology": "Manual review of the full text by the ContractLens developer agent (Claude, an AI model) — not by a lawyer. An 'item' is a clause a typical consumer could reasonably consider unfavourable or risky (privacy, financial, contractual, unfavourable term). 'ambiguous' lists clauses where reasonable reviewers could disagree; predictions matching them are counted separately, neither TP nor FP. Each item lists one or more verbatim anchor sentences; any one anchor overlapping a prediction's verified quote counts as a match."
+}
